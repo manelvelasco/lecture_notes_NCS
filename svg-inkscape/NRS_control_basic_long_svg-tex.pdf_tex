@@ -1,0 +1,73 @@
+%% Creator: Inkscape inkscape 0.91, www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'NRS_control_basic_long_svg-tex.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{238.08943178bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.65401132)%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{NRS_control_basic_long_svg-tex.pdf}}%
+    \put(0.21559686,0.39309788){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$h$}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{NRS_control_basic_long_svg-tex.pdf}}%
+    \put(0.30515812,0.15277786){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$\tau$}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{NRS_control_basic_long_svg-tex.pdf}}%
+    \put(0.53971821,0.39309808){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$h$}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=4]{NRS_control_basic_long_svg-tex.pdf}}%
+    \put(0.86484767,0.39309808){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$h$}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=5]{NRS_control_basic_long_svg-tex.pdf}}%
+    \put(0.49071771,0.21325932){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$d$}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=6]{NRS_control_basic_long_svg-tex.pdf}}%
+    \put(0.18730559,0.06495023){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Sample}}}%
+    \put(0.18932163,0.00050411){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Actuation}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=7]{NRS_control_basic_long_svg-tex.pdf}}%
+    \put(0.16025746,0.55085966){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$u_{k-2}$}}}%
+    \put(0.48362953,0.45064582){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$u_{k-1}$}}}%
+    \put(0.8317528,0.60532028){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$u_{k}$}}}%
+    \put(0.05477307,0.62498016){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$kh$}}}%
+    \put(0.37866279,0.62756748){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$(k+1)h$}}}%
+    \put(0.69955062,0.62756748){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$(k+2)h$}}}%
+  \end{picture}%
+\endgroup%

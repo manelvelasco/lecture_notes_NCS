@@ -1,0 +1,594 @@
+\ifx \llibre \undefined
+
+\documentclass[nols]{tufte-handout} 
+
+
+
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{listings} 
+\usepackage{fancyvrb}
+\usepackage{url}
+\usepackage{tabularx}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{amsfonts}
+\usepackage{amscd}
+\usepackage{amssymb}
+\usepackage{amstext}
+\usepackage{pstricks,pst-node}
+\usepackage{graphicx}
+\usepackage{listings}
+\usepackage{color}
+\usepackage{pst-plot}
+\usepackage{subfigure}
+\usepackage{cite}
+\usepackage{float}
+\usepackage{caption}
+\usepackage{booktabs}
+\usepackage{hyperref}
+\usepackage{listings,color}
+\usepackage{xcolor}
+\usepackage{framed}
+\definecolor{shadecolor}{rgb}{0.9,0.9,0.9}
+\hypersetup{pdfauthor={Manel Velasco},
+    pdftitle={Networked Control Systems},
+    pdfsubject={Lecture notes on networked control systems},
+    urlcolor=blue,
+}
+\usepackage{graphicx}
+\usepackage{mathtools}
+
+\theoremstyle{definition}
+\usepackage{verbatimbox}
+\newtheorem{exmp}{Example}[section]
+
+
+\newcommand{\executeiffilenewer}[3]{%
+ \ifnum\pdfstrcmp{\pdffilemoddate{#1}}%
+ {\pdffilemoddate{#2}}>0%
+ {\immediate\write18{#3}}\fi%
+}
+\newcommand{\includesvg}[1]{%
+ \executeiffilenewer{#1.svg}{#1.pdf}%
+ {/usr/local/bin/inkscape/inkscape -z -D --file="$(pwd)/#1.svg" %
+ --export-pdf="$(pwd)/#1.pdf" --export-latex}%
+ \input{#1.pdf_tex}%
+}
+
+
+
+
+\usepackage{courier}
+\lstset{
+    basicstyle=\footnotesize\ttfamily, % Standardschrift
+    %numbers=left,               % Ort der Zeilennummern
+    numberstyle=\tiny,          % Stil der Zeilennummern
+    %stepnumber=2,               % Abstand zwischen den Zeilennummern
+    numbersep=5pt,              % Abstand der Nummern zum Text
+    tabsize=2,                  % Groesse von Tabs
+    extendedchars=true,         %
+    breaklines=true,            % Zeilen werden Umgebrochen
+    keywordstyle=\color{red},
+    frame=b,         
+    %        keywordstyle=[1]\textbf,    % Stil der Keywords
+    %        keywordstyle=[2]\textbf,    %
+    %        keywordstyle=[3]\textbf,    %
+    %        keywordstyle=[4]\textbf,   \sqrt{\sqrt{}} %
+    keywordstyle=\color{blue}\ttfamily,
+    commentstyle=\color{green}\ttfamily,
+    stringstyle=\color{white}\ttfamily, % Farbe der String
+    showspaces=false,           % Leerzeichen anzeigen ?
+    showtabs=false,             % Tabs anzeigen ?
+    xleftmargin=17pt,
+    framexleftmargin=17pt,
+    framexrightmargin=5pt,
+    framexbottommargin=4pt,
+    %backgroundcolor=\color{lightgray},
+    showstringspaces=false,      % Leerzeichen in Strings anzeigen ?        
+    language=C
+}
+
+
+\usepackage{caption}
+\DeclareCaptionFont{white}{\color{white}}
+\DeclareCaptionFormat{listing}{\colorbox[cmyk]{0.43, 0.35, 0.35,0.01}{\parbox{\textwidth}{\hspace{15pt}#1#2#3}}}
+\captionsetup[lstlisting]{format=listing,labelfont=white,textfont=white, singlelinecheck=false, margin=0pt, font={bf,footnotesize}}
+
+
+
+
+\newcommand{\tab}{\hspace{1cm}}
+
+
+
+
+\newcommand{\chapter}[1]{\section{#1}}
+
+
+
+
+\title{Networked Control Systems, Introduction} % Title of the book
+\author[Manel Velasco and Pau Martí]{Manel Velasco and Pau Martí} % ADemo
+\publisher{ESAII} % Publisher
+
+
+
+\begin{document}
+
+\maketitle
+\setcounter{secnumdepth}{2}
+
+\else
+
+\fi
+
+
+
+%--------------------------------------------------------------------------
+
+
+
+\chapter{Introduction}
+
+If you are reading this preliminary notes on networked control systems i because you have realised that the network is becoming pervasive, everywhere... just like the control systems are pervasive in our lives. 
+
+Introducing a network in a control system has its own problems, and its advantages. The network may be considered as a tool or as a part of the system itself, but it has clear advantages in front of a non networked system, namely:
+\begin{itemize}
+    \item Cost reduction
+        \item Ease installation and maintenance
+        \item Large flexibility
+        \item Deployment in harsh environments
+        \item Less wires
+        \item Optimal size in production (inverters)
+        \item $\dots$
+
+\end{itemize}
+
+It also has its own problems, from a control point of view:
+\begin{itemize}
+    \item Varing sampling/transmission interval
+    \item Varing communications delays
+    \item Packet loss
+    \item Communication constrains through shared networks
+    \item Quantization 
+\end{itemize}
+
+All these proplems \sidenote{And some others not listed here} must be addressed from an analytical point of view to grant a correct behaviour of the controller and the plant
+
+Before we start we are going to classify the nature of the control systems depending on how the network integrates in the control system.
+We may consider two possible frameworks for a networked control system:
+\begin{itemize}
+        \item Physically distributed
+        \item Logically distributed    
+\end{itemize}
+
+In the case of a physically distributed system we face the problem of controlling a system over the network, so in this case the network is not part of the system itself, but the controller gets the information trough the network, and apples the control signals through the network. The plant is located at one physical place and the controller\sidenote{One single controller with all the information} is located in a different place while the network actuates as interface between both systems.
+
+
+
+
+\begin{figure}[!htb]
+    \centering
+    \includesvg{control_network}
+    \caption{Networked control system abstraction}
+    \label{fig:example}
+\end{figure}
+
+
+
+
+
+In the case of a logically distributed system we don't have a clear notion of single controller nor single plant. The system becomes a set of controllers, which may or not communicate among them, and a set of plant which may or not interact. This is the most hard problem to solve due to the fact that is suffers the problems of the physically distributed system plus those associated with the logically distributed control system.
+
+\begin{figure}
+\centering
+\def\svgwidth{\columnwidth}
+\includesvg{ncs2}
+\end{figure}
+The course is finite and the among of theory is huge, we will face the problems of a physically distributed system and then we will try to face those associated with the logical distributed systems.
+
+To start we review the discrete time model associated to a continuous system. This is an important issue that you must take into account, the system is continuous, the controller is discrete, it only makes actions in a finite set of times. We develop a discrete time model from the continuous one only to be able to design the controller. Once the controler is designed the discrete model plays no roll in the control loop, nor in the controller actions. It's just for design purposes that we develop the next\sidenote{and oll the models developed in these notes} discrete model.
+
+
+\section{Basic model development , from continuous to discrete models}
+
+We start with the simple continuous linear time invariant system\sidenote{You should be able to understand these equations, if you are not familiar with them try to read "Modern Control Engineering" from Katsuhiko Ogata}
+\begin{align}
+    \dot x(t)=Ax(t)+Bu(t)\nonumber\\
+    y=Cx(t)+Du(t)
+\end{align}
+Usually we drop the dependency on $t$ from $x$ and $u$ because we know that these are the time dependent variables and we simply write
+
+\begin{align}
+    \dot x=Ax+Bu\nonumber\\
+    y=Cx+Du\label{eq:modelo_continuo}
+\end{align}
+Where $A\in\mathbb{R}^{n\times n}$, $B\in\mathbb{R}^{n\times 1}$,$C \in \mathbb{R}^{1\times n}$ and $D\in \mathbb{R}^{1 \times 1}$. $x$ is the state of the system and is defined on $\mathbb{R}^{n\times 1}$ and $u$ is the input to de system and is supposed to be sacalr along all the time.
+
+From a practical control point of view, this model is useless, just because nowadays the control is performed inside a processor, which has a very simple way of actuating:
+\begin{itemize}
+    \item Measure the system's output ($y$) or the state if possible ($x$)
+    \item Compute the control signal $u$
+    \item Apply the control signal up to the next sampling
+\end{itemize}
+
+As it can be seen, the way in which the controller works is discrete, so the way to design the controller should take into account this fact.
+To this end we present an easy  way to undertand the discrete time model, it's based on the general solution of the model \ref{eq:modelo_continuo}  
+The solution to the state of equation \ref{eq:modelo_continuo} is 
+\begin{align}
+    x(t)&=e^{At}x_0+\int_0^t e^{As}Bu(t)ds\nonumber\\
+    y(t)&=Cx(t)+Du(t)\label{eq:modelo_discreto_1}
+\end{align}
+If we use equation \ref{eq:modelo_discreto_1} we are in conditions to compute the state in any time $t$ once the initial condition $x_0$ and the control signal over time $u(t)$ are given. 
+
+For the shake of simplicity we rename the matrices $e^{At}$  and $\displaystyle\int_0^t e^{As}Bds$ as $\Phi(t)$ and $\Gamma(t)$.
+
+%----------------------------------------------------
+%--Ejemplo-------------------------------------------
+%----------------------------------------------------
+
+\vspace{1cm}
+\hrule height 1pt
+\begin{exmp}
+%\begin{shaded}
+    
+    Supose you have a system\sidenote{We just need the $A$ and $B$ matrics of equation (\ref{eq:modelo_continuo}) to perform the calculations, even more, the system is supossed to be LTI contiunuous time, so we need no more information right now} given by the matrices
+
+    \begin{align*}
+        A=\begin{bmatrix}
+            0 & 1\\
+            0 & 0  
+        \end{bmatrix}\text{ and }
+        B=\begin{bmatrix}
+            1\\0
+        \end{bmatrix}
+    \end{align*}
+    And a initial condition $x(0)=\begin{bmatrix} 1\\2\end{bmatrix}$ and a input signal $u(t)=t$
+
+    \textbf{Solution:}
+    To compute the solution of system (\ref{eq:modelo_continuo}) we first compute the expression $e^{At}$ in Matlab
+
+    \noindent\hfil\rule{\textwidth}{.4pt}\hfil 
+    \begin{verbbox}[\footnotesize]
+                                                            .           
+Phi =
+[ 1, t]
+[ 0, 1]    
+    \end{verbbox}
+
+    \textbf{Matlab code:}\marginnote{
+        \textbf{Result:}\\
+        \theverbbox 
+    }
+ 
+    \begin{verbatim}
+        close all % to close all plots
+        clear all % to clean workspace
+        A=[0 1;0 0]; % Declare A matrix
+        syms t;      %symbolic variable t
+        Phi=expm(A*t)
+    \end{verbatim}
+    \noindent\hfil\rule{\textwidth}{.4pt}\hfil 
+    Now we compute the expression $\displaystyle\int_0^t e^{As}Bu(t)ds$
+    
+    \noindent\hfil\rule{\textwidth}{.4pt}\hfil 
+    \begin{verbbox}[\footnotesize]
+                                                            .           
+Gamma =
+[t^3/3]
+[t^2/2]
+    \end{verbbox}
+    \textbf{Matlab code:}\marginnote{
+        \textbf{Result:}\\
+        \theverbbox 
+    }
+    \begin{verbatim}
+        syms s; % symbolic variable s to 
+                % compute the integral
+        B=[0;1];
+        Gamma=int(expm(A*s)*B*s,s,0,t)
+    \end{verbatim}
+    \noindent\hfil\rule{\textwidth}{.4pt}\hfil 
+    Now we can say that the system evolves with
+    \begin{align*}
+        x(t)=\begin{bmatrix}
+            1 & t\\
+            0 & 1
+        \end{bmatrix}
+        \begin{bmatrix}
+            1\\
+            2
+        \end{bmatrix}
+        +
+        \begin{bmatrix}
+            \frac{t^3}{3}\\
+            \frac{t^2}{2}
+        \end{bmatrix}=
+        \begin{bmatrix}
+            1+2t+\frac{t^3}{3}\\
+            2+\frac{t^2}{3}
+        \end{bmatrix}
+    \end{align*}
+%\end{shaded}
+\end{exmp}
+\hrule height 1pt
+
+\vspace{1cm}
+
+
+
+
+
+The previous exaple allows us to compute the evolution of the system under any initial condition when $u(t)$ is known,
+but if we focus in the control algorithm we see that the last step is to aply the control signal up to the next sampling. This means that the control signal is constant over time, adding this fact to our solution equation (\ref{eq:modelo_discreto_1}) becomes
+
+\begin{align}
+    x(t)&=e^{At}x_0+\int_0^t e^{As}Bds\,u\nonumber\\
+    y(t)&=Cx(t)+Du\label{eq:modelo_discreto_2}
+\end{align}
+
+Now we may set a chain of solutions, in such a way that initial condition for step 2 is the final state for tep 1, initial condition for step 3 is the final state for step 2 and so on. The only requirement is that the sampling is constant every $h$ seconds. This may be written as
+
+\begin{align}
+    x_{k+1}&=e^{Ah}x_k+\int_0^h e^{As}Bds\,u_k\nonumber\\
+    y_k&=Cx_k+Du_k\label{eq:modelo_discreto_3}
+\end{align}
+
+Be aware, now $e^{Ah}$  and $\displaystyle\int_0^h e^{As}Bdt$ are renamed as $\Phi(h)$ and $\Gamma(h)$.\sidenote{These are matrices defined over the same space of its continuous counterparts. The computation of those is not difficult but is out of the scope of these notes. In matlab you can compute these matrices as [Phi,Gamma]=c2d(A,B,h) }. This leads to our final discrete time model
+
+\begin{align}
+    x_{k+1}&=\Phi(h)x_{k}+\Gamma(h)u_k \nonumber\\
+    y_k&=Cx_k+Du_k
+\end{align}
+
+which is the basis of the design of discrete time controllers.
+
+\section{Easy controller design}
+
+The easiest way to design a controller is to solve the system of equation that one may get comparing
+the desired characteristic polynomial with the actual characteristic polynomial in closed loop form.
+
+The closed loop characteristic polynomial is defined\sidenote{The sign in this expression is completely arbitrary, for historical reasons is defined as minus, that forces you to impose a sign beforehand. Take care in matlab, because is defined in this way} as 
+
+\[
+|zI-(\Phi-\Gamma K)|
+\]
+
+The desired polynomial is 
+
+\[
+p_d(z)=(z-z_1)(z-z_2)\ldots (z-z_n)
+\]
+where $z_i$ are the desired poles of the discrete system in closed loop.
+
+Whenever we want the system with feedback $K$ to have those $z_i$ poles we would equal both polynomials and we would solve the generated system of equations where the unknowns are $k_i$.
+
+You should take into account that usually the desired dynamics are expressed in terms of continuous control\sidenote{It may be the continuous poles $s_i$ or the restrictions over the time response of the system, as shown in next examples}. To get the discrete verssion of these continuous poles you have to discretize them using   $z_i=e^{s_ih}$, where $h$ is the sampling period.
+
+%----------------------------------------------------
+%--Ejemplo-------------------------------------------
+%----------------------------------------------------
+
+\vspace{1cm}
+\hrule height 1pt
+\begin{exmp}
+
+
+Lets use the dobule integrator model
+\begin{align*}
+\dot{x}
+&=
+\begin{bmatrix}
+0 & 1\\
+0 & 0
+\end{bmatrix}
+x+
+\begin{bmatrix}
+0\\
+1
+\end{bmatrix}
+u\\
+y&=
+\begin{bmatrix}
+1 & 0
+\end{bmatrix}
+x
+\end{align*}
+%\end{equation}
+
+And we want to design a controller that sets the continuous eigen-values of the system to $s_{1,2}=-1.8\pm j3.12$ with a sampling period of $h=0.1$s
+
+    \textbf{Solution:}
+The discrete equivalent poles are $z_{1,2}=e^{s_{1,2}h}=0.8\pm j0.25$
+
+The polynomial that has as solution these poles is
+\[
+z^{2}-1.6z+0.7=0
+\]
+ This will be the one against we compare our closed loop expression. To get this closed loop expression we discretize the system
+
+\begin{align*} 
+x_{k+1} &=
+\begin{bmatrix}
+1 & h\\
+0 & 1
+\end{bmatrix}
+x_{k}+
+\begin{bmatrix}
+h^{2}/2\\
+h
+\end{bmatrix}
+u_{k}\\
+y_k &=
+\begin{bmatrix}
+1 & 0
+\end{bmatrix}
+x_{k}
+\end{align*}
+thus the closed loop characteristic polynomial is
+\begin{align*} 
+    \left\vert z\mathbf{I}-(\Phi-\Gamma K)\right\vert=\left\vert z
+\begin{bmatrix}
+        1 & 0\\
+0 & 1
+\end{bmatrix}
+-
+\begin{bmatrix}
+1 & h\\
+0 & 1
+\end{bmatrix}
+\begin{bmatrix}
+h^{2}/2\\
+h
+\end{bmatrix}
+\begin{bmatrix}
+k_{1} & k_{2}%
+\end{bmatrix} 
+\right\vert =0
+\end{align*}
+
+
+or
+\[
+z^{2}+(hk_{2}+(h^{2}/2)k_{1}-2)z+(h^{2}/2)k_{1}-hk_{2}+1=0
+\]
+
+
+Identifying coefficient we get
+\[
+\left\{
+\begin{array}
+[c]{l}%
+hk_{2}+(h^{2}/2)k_{1}-2=-1.6\\
+(h^{2}/2)k_{1}-hk_{2}+1=0.7
+\end{array}
+\right.
+\]
+and solving
+\begin{align*}
+K=
+\begin{bmatrix}
+    k_{1} & k_{2}%
+\end{bmatrix}
+\begin{bmatrix}
+\frac{0.1}{h^{2}} & \frac{0.35}{h}%
+\end{bmatrix}
+\end{align*}
+
+Setting  $h=0.1$,
+\begin{align*}
+K=
+\begin{bmatrix}
+10 & 3.5
+\end{bmatrix}
+\end{align*}
+\end{exmp}
+\hrule height 1pt
+
+\vspace{1cm}
+As it can be seen this is a easy method to place the poles at a given position. There are some formulas to perform this automatically, the Ackermann's formula and the Banach's formula are just few of them. The nice thing about the Ackermann's formula is that it uses explicitly the inverse of the controllability matrix, so that, if the system isn't controllable there is no inverse.
+
+\vspace{1cm}
+\noindent\textbf{The direct path for controller design, Ackermann's formula}
+
+Given the system
+\begin{align*}
+x_{k+1}&=\Phi x_{k}+\Gamma u_{k}\\
+y_{k}&=Cx_{k}+Du_{k}%
+\end{align*}
+And the desired characteristic polynomial
+\begin{align*}
+p_{d}(z)=(z-\lambda_{1})(z-\lambda_{2})\cdots(z-\lambda_{n})=z^{n}%
++b_{1}z^{n-1}+\cdots+b_{n-1}z+b_{n}%
+\end{align*}
+
+
+The Ackermann's formula states that
+\begin{align*}
+K=
+\begin{bmatrix}
+0 & 0 & 0 & \cdots & 1
+\end{bmatrix}
+\begin{bmatrix}
+\Gamma & \Phi\Gamma & \Phi^{2}\Gamma & \cdots & \Phi^{n-1}\Gamma%
+\end{bmatrix}
+^{-1}p_{d}\left( \Phi \right)
+\end{align*}
+
+Where
+
+\[
+p_{d}\left( \Phi\right)  =\Phi^{n}+b_{1}\Phi^{n-1}+\cdots+b_{n-1}\Phi+b_{n}%
+\]
+
+%----------------------------------------------------
+%--Ejemplo-------------------------------------------
+%----------------------------------------------------
+\vspace{1cm}
+\hrule height 1pt
+\begin{exmp} 
+    Taking data from previous example, the desired characteristic polynomial is
+\[
+p_{d}(z)=(z-0.8-j0.25)(z-0.8+j0.25)=z^{2}-1.6z+0.7025
+\]
+And the discrete matrices
+\[
+    \Phi=
+    \begin{bmatrix} 
+1 & 0.1\\
+0 & 1
+\end{bmatrix}
+\text{ and }
+\Gamma=
+\begin{bmatrix}
+0.005\\
+0.1
+\end{bmatrix}
+\]
+we have:
+\[
+K=
+\begin{bmatrix}
+0 & 1
+\end{bmatrix}
+\begin{bmatrix}
+\Gamma & \Phi\Gamma
+\end{bmatrix}^{-1}p_{d}\left( \Phi \right) \,\,\, = \left(
+\begin{bmatrix}
+10 & 3.5
+\end{bmatrix}
+\right)
+\]
+
+    \noindent\hfil\rule{\textwidth}{.4pt}\hfil
+       \begin{verbbox}[\footnotesize]
+                                                            .           
+k =
+[10  3.5]
+
+    \end{verbbox} 
+\textbf{Matlab code:}\marginnote{
+        \textbf{Result:}\\
+        \theverbbox 
+    }
+    \begin{verbatim}
+        A=[0 1;0 0];                %system matrix
+        B=[0;1];                    %Input matrix
+        h=0.1;                      %sampling period
+        [phi,gamma]=c2d(A,B,h);     %Discrete model
+        z=[0.8+0.25i, 0.8-0.25i];   %Discrete poles
+        k=acker(phi,gamma,z)        %Controler
+    \end{verbatim}
+    \noindent\hfil\rule{\textwidth}{.4pt}\hfil 
+
+\end{exmp}
+\hrule height 1pt
+\vspace{1cm}
+
+\ifx \fillibre \undefined
+\end{document}
+\else
+
+\fi
+

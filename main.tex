@@ -1,0 +1,126 @@
+\documentclass[nols]{tufte-book} 
+
+
+
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{listings} 
+\usepackage{fancyvrb}
+\usepackage{url}
+\usepackage{tabularx}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{amsfonts}
+\usepackage{amscd}
+\usepackage{amssymb}
+\usepackage{amstext}
+\usepackage{pstricks,pst-node}
+\usepackage{graphicx}
+\usepackage{listings}
+\usepackage{color}
+\usepackage{pst-plot}
+\usepackage{subfigure}
+\usepackage{cite}
+\usepackage{float}
+\usepackage{caption}
+\usepackage{booktabs}
+\usepackage{hyperref}
+\usepackage{listings,color}
+\usepackage{xcolor}
+\usepackage{framed}
+\definecolor{shadecolor}{rgb}{0.9,0.9,0.9}
+\hypersetup{pdfauthor={Manel Velasco},
+    pdftitle={Networked Control Systems},
+    pdfsubject={Lecture notes on networked control systems},
+    urlcolor=blue,
+}
+\usepackage{graphicx}
+\usepackage{mathtools}
+
+
+
+\theoremstyle{definition}
+\usepackage{verbatimbox}
+\newtheorem{exmp}{Example}[section]
+
+
+%\newcommand{\executeiffilenewer}[3]{%
+% \ifnum\pdfstrcmp{\pdffilemoddate{#1}}%
+% {\pdffilemoddate{#2}}>0%
+% {\immediate\write18{#3}}\fi%
+%}
+%\newcommand{\includesvg}[1]{%
+% \executeiffilenewer{#1.svg}{#1.pdf}%
+% {/usr/local/bin/inkscape/inkscape -z -D --file="$(pwd)/#1.svg" %
+% --export-pdf="$(pwd)/#1.pdf" --export-latex}%
+% \input{#1.pdf_tex}%
+%}
+
+\usepackage{svg}
+\svgpath{{images/}}
+\usepackage{courier}
+\lstset{
+    basicstyle=\footnotesize\ttfamily, % Standardschrift
+    %numbers=left,               % Ort der Zeilennummern
+    numberstyle=\tiny,          % Stil der Zeilennummern
+    %stepnumber=2,               % Abstand zwischen den Zeilennummern
+    numbersep=5pt,              % Abstand der Nummern zum Text
+    tabsize=2,                  % Groesse von Tabs
+    extendedchars=true,         %
+    breaklines=true,            % Zeilen werden Umgebrochen
+    keywordstyle=\color{red},
+    frame=b,         
+    %        keywordstyle=[1]\textbf,    % Stil der Keywords
+    %        keywordstyle=[2]\textbf,    %
+    %        keywordstyle=[3]\textbf,    %
+    %        keywordstyle=[4]\textbf,   \sqrt{\sqrt{}} %
+    keywordstyle=\color{blue}\ttfamily,
+    commentstyle=\color{green}\ttfamily,
+    stringstyle=\color{white}\ttfamily, % Farbe der String
+    showspaces=false,           % Leerzeichen anzeigen ?
+    showtabs=false,             % Tabs anzeigen ?
+    xleftmargin=17pt,
+    framexleftmargin=17pt,
+    framexrightmargin=5pt,
+    framexbottommargin=4pt,
+    %backgroundcolor=\color{lightgray},
+    showstringspaces=false,      % Leerzeichen in Strings anzeigen ?        
+    language=C
+}
+
+
+\usepackage{caption}
+\DeclareCaptionFont{white}{\color{white}}
+\DeclareCaptionFormat{listing}{\colorbox[cmyk]{0.43, 0.35, 0.35,0.01}{\parbox{\textwidth}{\hspace{15pt}#1#2#3}}}
+\captionsetup[lstlisting]{format=listing,labelfont=white,textfont=white, singlelinecheck=false, margin=0pt, font={bf,footnotesize}}
+
+
+
+
+\newcommand{\tab}{\hspace{1cm}}
+
+
+
+
+\setcounter{secnumdepth}{2}
+\def \llibre {}
+\def \fillibre {}
+%--------------------------------------------------------------------------
+\title{Introduction to\\Networked\\Control Systems} % Title of the book
+
+\author[Manel Velasco and Pau Martí]{Manel Velasco and Pau Martí} % ADemo
+\publisher{ESAII} % Publisher
+
+
+
+
+\begin{document}
+\maketitle
+\mainmatter
+\input{INTRODUCTION.tex}
+\input{DELAYED_MODEL.tex}
+\input{LYAPUNOV.tex}
+\input{LMI.tex}
+
+
+\end{document}

@@ -1,0 +1,2937 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.7.11)  30 JUL 2017 00:13
+entering extended mode
+ \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**main.tex
+(./main.tex
+LaTeX2e <2017-04-15>
+Babel <3.10> and hyphenation patterns for 84 language(s) loaded.
+(/usr/local/texlive/2017/texmf-dist/tex/latex/tufte-latex/tufte-book.cls
+Document Class: tufte-book 2015/06/21 v3.5.2 Tufte-book class
+(/usr/local/texlive/2017/texmf-dist/tex/latex/tufte-latex/tufte-common.def
+File: tufte-common.def 2015/06/21 v3.5.2 Common code for the Tufte-LaTeX styles
+(/usr/local/texlive/2017/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
+(/usr/local/texlive/2017/texmf-dist/tex/generic/xkeyval/xkeyval.tex (/usr/local/texlive/2017/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks14
+\XKV@tempa@toks=\toks15
+(/usr/local/texlive/2017/texmf-dist/tex/generic/xkeyval/keyval.tex))
+\XKV@depth=\count79
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+)) (/usr/local/texlive/2017/texmf-dist/tex/latex/xifthen/xifthen.sty
+Package: xifthen 2015/11/05 v1.4.0 Extended ifthen features
+(/usr/local/texlive/2017/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count80
+\calc@Bcount=\count81
+\calc@Adimen=\dimen102
+\calc@Bdimen=\dimen103
+\calc@Askip=\skip41
+\calc@Bskip=\skip42
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count82
+\calc@Cskip=\skip43
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/ifmtarg/ifmtarg.sty
+Package: ifmtarg 2009/09/02 v1.2a check for an empty argument
+)) (/usr/local/texlive/2017/texmf-dist/tex/latex/hardwrap/hardwrap.sty
+Package: hardwrap 2011/02/12 v0.2 Hard wrap messages
+(/usr/local/texlive/2017/texmf-dist/tex/latex/ifplatform/ifplatform.sty
+Package: ifplatform 2010/10/22 v0.4 Testing for the operating system
+(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO)
+(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+) (/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+) (/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+) (/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+) (/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/catchfile.sty
+Package: catchfile 2016/05/16 v1.7 Catch the contents of a file (HO)
+(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+))
+runsystem(uname -s > "main.w18")...executed.
+
+(./main.w18)
+runsystem(rm -- "main.w18")...executed.
+
+) (/usr/local/texlive/2017/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\hw@charcount=\count83
+\hw@wordcount=\count84
+\hw@maxprintline=\count85
+(|kpsewhich -var-value=max_print_line))
+Class tufte-book Info: Loading the base class `book'
+(/usr/local/texlive/2017/texmf-dist/tex/latex/base/book.cls
+Document Class: book 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/local/texlive/2017/texmf-dist/tex/latex/base/bk10.clo
+File: bk10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count86
+\c@chapter=\count87
+\c@section=\count88
+\c@subsection=\count89
+\c@subsubsection=\count90
+\c@paragraph=\count91
+\c@subparagraph=\count92
+\c@figure=\count93
+\c@table=\count94
+\abovecaptionskip=\skip44
+\belowcaptionskip=\skip45
+\bibindent=\dimen104
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/titlesec/titlesec.sty
+Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
+\ttl@box=\box26
+\beforetitleunit=\skip46
+\aftertitleunit=\skip47
+\ttl@plus=\dimen105
+\ttl@minus=\dimen106
+\ttl@toksa=\toks16
+\titlewidth=\dimen107
+\titlewidthlast=\dimen108
+\titlewidthfirst=\dimen109
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/titlesec/titletoc.sty
+Package: titletoc 2011/12/15 v1.6 TOC entries
+\ttl@leftsep=\dimen110
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2017/03/14 v6.85a Hypertext links for LaTeX
+(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
+(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
+Package hobsub Info: Skipping package `infwarerr' (already loaded).
+Package hobsub Info: Skipping package `ltxcmds' (already loaded).
+Package hobsub Info: Skipping package `ifluatex' (already loaded).
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
+Package hobsub Info: Skipping package `ifpdf' (already loaded).
+Package hobsub Info: Skipping package `etexcmds' (already loaded).
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+Package hobsub Info: Skipping package `pdftexcmds' (already loaded).
+Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO)
+Package: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
+Package: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
+Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
+Package: xcolor-patch 2016/05/16 xcolor patch
+Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
+Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
+Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/auxhook.sty
+Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+)
+\@linkdim=\dimen111
+\Hy@linkcounter=\count95
+\Hy@pagecounter=\count96
+(/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2017/03/14 v6.85a Hyperref: PDFDocEncoding definition (HO)
+)
+\Hy@SavedSpaceFactor=\count97
+(/usr/local/texlive/2017/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Option `unicode' set `true' on input line 4374.
+(/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/puenc.def
+File: puenc.def 2017/03/14 v6.85a Hyperref: PDF Unicode definition (HO)
+)
+Package hyperref Info: Option `hyperfootnotes' set `false' on input line 4374.
+Package hyperref Info: Hyper figures OFF on input line 4498.
+Package hyperref Info: Link nesting OFF on input line 4503.
+Package hyperref Info: Hyper index ON on input line 4506.
+Package hyperref Info: Plain pages OFF on input line 4513.
+Package hyperref Info: Backreferencing OFF on input line 4518.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4751.
+\c@Hy@tempcnt=\count98
+(/usr/local/texlive/2017/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip10
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5104.
+\XeTeXLinkMargin=\dimen112
+\Fld@menulength=\count99
+\Field@Width=\dimen113
+\Fld@charsize=\dimen114
+Package hyperref Info: Hyper figures OFF on input line 6358.
+Package hyperref Info: Link nesting OFF on input line 6363.
+Package hyperref Info: Hyper index ON on input line 6366.
+Package hyperref Info: backreferencing OFF on input line 6373.
+Package hyperref Info: Link coloring OFF on input line 6378.
+Package hyperref Info: Link coloring with OCG OFF on input line 6383.
+Package hyperref Info: PDF/A mode OFF on input line 6388.
+LaTeX Info: Redefining \ref on input line 6428.
+LaTeX Info: Redefining \pageref on input line 6432.
+\Hy@abspage=\count100
+\c@Item=\count101
+)
+
+Package hyperref Message: Driver (autodetected): hpdftex.
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2017/03/14 v6.85a Hyperref driver for pdfTeX
+\Fld@listcount=\count102
+\c@bookmark@seq@number=\count103
+(/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 282.
+)
+\Hy@SectionHShift=\skip48
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/ms/ragged2e.sty
+Package: ragged2e 2009/05/21 v2.1 ragged2e Package (MS)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/ms/everysel.sty
+Package: everysel 2011/10/28 v1.2 EverySelectfont Package (MS)
+)
+\CenteringLeftskip=\skip49
+\RaggedLeftLeftskip=\skip50
+\RaggedRightLeftskip=\skip51
+\CenteringRightskip=\skip52
+\RaggedLeftRightskip=\skip53
+\RaggedRightRightskip=\skip54
+\CenteringParfillskip=\skip55
+\RaggedLeftParfillskip=\skip56
+\RaggedRightParfillskip=\skip57
+\JustifyingParfillskip=\skip58
+\CenteringParindent=\skip59
+\RaggedLeftParindent=\skip60
+\RaggedRightParindent=\skip61
+\JustifyingParindent=\skip62
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2010/09/12 v5.6 Page Geometry
+\Gm@cnth=\count104
+\Gm@cntv=\count105
+\c@Gm@tempcnt=\count106
+\Gm@bindingoffset=\dimen115
+\Gm@wd@mp=\dimen116
+\Gm@odd@mp=\dimen117
+\Gm@even@mp=\dimen118
+\Gm@layoutwidth=\dimen119
+\Gm@layoutheight=\dimen120
+\Gm@layouthoffset=\dimen121
+\Gm@layoutvoffset=\dimen122
+\Gm@dimlist=\toks17
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/changepage/changepage.sty
+Package: changepage 2009/10/20 v1.0c check page and change page layout
+\c@cp@cntr=\count107
+\cp@tempcnt=\count108
+)
+\@tufte@overhang=\skip63
+\@tufte@fullwidth=\skip64
+\@tufte@caption@fill=\skip65
+(/usr/local/texlive/2017/texmf-dist/tex/latex/paralist/paralist.sty
+Package: paralist 2017/01/22 v2.7 Extended list environments
+\pltopsep=\skip66
+\plpartopsep=\skip67
+\plitemsep=\skip68
+\plparsep=\skip69
+\pl@lab=\toks18
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/textcase/textcase.sty
+Package: textcase 2004/10/07 v0.07 Text only upper/lower case changing (DPC)
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/setspace/setspace.sty
+Package: setspace 2011/12/19 v6.7a set line spacing
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Package option `usenames' ignored on input line 216.
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2017/01/12 v0.06k Graphics/color for pdfTeX
+\Gread@gobject=\count109
+)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/dvipsnam.def
+File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/xcolor/svgnam.def
+File: svgnam.def 2016/05/11 v2.12 Predefined colors according to SVG 1.1 (UK)
+)) (/usr/local/texlive/2017/texmf-dist/tex/latex/natbib/natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip70
+\bibsep=\skip71
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count110
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/natbib/bibentry.sty
+Package: bibentry 2007/10/30 1.5 (PWD)
+)
+No file main.bbl.
+\c@@tufte@num@bibkeys=\count111
+(/usr/local/texlive/2017/texmf-dist/tex/latex/sauerj/optparams.sty
+Package: optparams 2004/08/14 v0.9 multiple optional parameters in macros
+)
+\@tufte@sidenote@vertical@offset=\skip72
+(/usr/local/texlive/2017/texmf-dist/tex/latex/placeins/placeins.sty
+Package: placeins 2005/04/18  v 2.2
+)
+\@tufte@margin@floatbox=\box27
+\@tufte@figure@box=\box28
+\@tufte@caption@box=\box29
+\@tufte@caption@vertical@offset=\skip73
+\@tufte@float@contents@width=\skip74
+(/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/mathpazo.sty
+Package: mathpazo 2005/04/12 PSNFSS-v9.2a Palatino w/ Pazo Math (D.Puga, WaS) 
+\symupright=\mathgroup4
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/helvet.sty
+Package: helvet 2005/04/12 PSNFSS-v9.2a (WaS) 
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/bera/beramono.sty
+Package: beramono 2004/01/31 (WaS)
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2017/04/05 v2.0i Standard LaTeX package
+(/usr/local/texlive/2017/texmf-dist/tex/latex/base/t1enc.def
+File: t1enc.def 2017/04/05 v2.0i Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
+)) (/usr/local/texlive/2017/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2017/04/05 v2.0i Standard LaTeX package
+Package textcomp Info: Sub-encoding information:
+(textcomp)               5 = only ISO-Adobe without \textcurrency
+(textcomp)               4 = 5 + \texteuro
+(textcomp)               3 = 4 + \textohm
+(textcomp)               2 = 3 + \textestimated + \textcurrency
+(textcomp)               1 = TS1 - \textcircled - \t
+(textcomp)               0 = TS1 (full)
+(textcomp)             Font families with sub-encoding setting implement
+(textcomp)             only a restricted character set as indicated.
+(textcomp)             Family '?' is the default used for unknown fonts.
+(textcomp)             See the documentation for details.
+Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 79.
+(/usr/local/texlive/2017/texmf-dist/tex/latex/base/ts1enc.def
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+)
+LaTeX Info: Redefining \oldstylenums on input line 334.
+Package textcomp Info: Setting cmr sub-encoding to TS1/0 on input line 349.
+Package textcomp Info: Setting cmss sub-encoding to TS1/0 on input line 350.
+Package textcomp Info: Setting cmtt sub-encoding to TS1/0 on input line 351.
+Package textcomp Info: Setting cmvtt sub-encoding to TS1/0 on input line 352.
+Package textcomp Info: Setting cmbr sub-encoding to TS1/0 on input line 353.
+Package textcomp Info: Setting cmtl sub-encoding to TS1/0 on input line 354.
+Package textcomp Info: Setting ccr sub-encoding to TS1/0 on input line 355.
+Package textcomp Info: Setting ptm sub-encoding to TS1/4 on input line 356.
+Package textcomp Info: Setting pcr sub-encoding to TS1/4 on input line 357.
+Package textcomp Info: Setting phv sub-encoding to TS1/4 on input line 358.
+Package textcomp Info: Setting ppl sub-encoding to TS1/3 on input line 359.
+Package textcomp Info: Setting pag sub-encoding to TS1/4 on input line 360.
+Package textcomp Info: Setting pbk sub-encoding to TS1/4 on input line 361.
+Package textcomp Info: Setting pnc sub-encoding to TS1/4 on input line 362.
+Package textcomp Info: Setting pzc sub-encoding to TS1/4 on input line 363.
+Package textcomp Info: Setting bch sub-encoding to TS1/4 on input line 364.
+Package textcomp Info: Setting put sub-encoding to TS1/5 on input line 365.
+Package textcomp Info: Setting uag sub-encoding to TS1/5 on input line 366.
+Package textcomp Info: Setting ugq sub-encoding to TS1/5 on input line 367.
+Package textcomp Info: Setting ul8 sub-encoding to TS1/4 on input line 368.
+Package textcomp Info: Setting ul9 sub-encoding to TS1/4 on input line 369.
+Package textcomp Info: Setting augie sub-encoding to TS1/5 on input line 370.
+Package textcomp Info: Setting dayrom sub-encoding to TS1/3 on input line 371.
+Package textcomp Info: Setting dayroms sub-encoding to TS1/3 on input line 372.
+Package textcomp Info: Setting pxr sub-encoding to TS1/0 on input line 373.
+Package textcomp Info: Setting pxss sub-encoding to TS1/0 on input line 374.
+Package textcomp Info: Setting pxtt sub-encoding to TS1/0 on input line 375.
+Package textcomp Info: Setting txr sub-encoding to TS1/0 on input line 376.
+Package textcomp Info: Setting txss sub-encoding to TS1/0 on input line 377.
+Package textcomp Info: Setting txtt sub-encoding to TS1/0 on input line 378.
+Package textcomp Info: Setting lmr sub-encoding to TS1/0 on input line 379.
+Package textcomp Info: Setting lmdh sub-encoding to TS1/0 on input line 380.
+Package textcomp Info: Setting lmss sub-encoding to TS1/0 on input line 381.
+Package textcomp Info: Setting lmssq sub-encoding to TS1/0 on input line 382.
+Package textcomp Info: Setting lmvtt sub-encoding to TS1/0 on input line 383.
+Package textcomp Info: Setting lmtt sub-encoding to TS1/0 on input line 384.
+Package textcomp Info: Setting qhv sub-encoding to TS1/0 on input line 385.
+Package textcomp Info: Setting qag sub-encoding to TS1/0 on input line 386.
+Package textcomp Info: Setting qbk sub-encoding to TS1/0 on input line 387.
+Package textcomp Info: Setting qcr sub-encoding to TS1/0 on input line 388.
+Package textcomp Info: Setting qcs sub-encoding to TS1/0 on input line 389.
+Package textcomp Info: Setting qpl sub-encoding to TS1/0 on input line 390.
+Package textcomp Info: Setting qtm sub-encoding to TS1/0 on input line 391.
+Package textcomp Info: Setting qzc sub-encoding to TS1/0 on input line 392.
+Package textcomp Info: Setting qhvc sub-encoding to TS1/0 on input line 393.
+Package textcomp Info: Setting futs sub-encoding to TS1/4 on input line 394.
+Package textcomp Info: Setting futx sub-encoding to TS1/4 on input line 395.
+Package textcomp Info: Setting futj sub-encoding to TS1/4 on input line 396.
+Package textcomp Info: Setting hlh sub-encoding to TS1/3 on input line 397.
+Package textcomp Info: Setting hls sub-encoding to TS1/3 on input line 398.
+Package textcomp Info: Setting hlst sub-encoding to TS1/3 on input line 399.
+Package textcomp Info: Setting hlct sub-encoding to TS1/5 on input line 400.
+Package textcomp Info: Setting hlx sub-encoding to TS1/5 on input line 401.
+Package textcomp Info: Setting hlce sub-encoding to TS1/5 on input line 402.
+Package textcomp Info: Setting hlcn sub-encoding to TS1/5 on input line 403.
+Package textcomp Info: Setting hlcw sub-encoding to TS1/5 on input line 404.
+Package textcomp Info: Setting hlcf sub-encoding to TS1/5 on input line 405.
+Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 406.
+Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 407.
+Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
+Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+Package: fancyhdr 2016/09/06 3.8 Extensive control of page headers and footers
+\fancy@headwidth=\skip75
+\f@ncyO@elh=\skip76
+\f@ncyO@erh=\skip77
+\f@ncyO@olh=\skip78
+\f@ncyO@orh=\skip79
+\f@ncyO@elf=\skip80
+\f@ncyO@erf=\skip81
+\f@ncyO@olf=\skip82
+\f@ncyO@orf=\skip83
+)
+\tufteskipamount=\skip84
+(/usr/local/texlive/2017/texmf-dist/tex/latex/tools/multicol.sty
+Package: multicol 2017/04/11 v1.8q multicolumn formatting (FMi)
+\c@tracingmulticols=\count112
+\mult@box=\box30
+\multicol@leftmargin=\dimen123
+\c@unbalance=\count113
+\c@collectmore=\count114
+\doublecol@number=\count115
+\multicoltolerance=\count116
+\multicolpretolerance=\count117
+\full@width=\dimen124
+\page@free=\dimen125
+\premulticols=\dimen126
+\postmulticols=\dimen127
+\multicolsep=\skip85
+\multicolbaselineskip=\skip86
+\partial@page=\box31
+\last@line=\box32
+\maxbalancingoverflow=\dimen128
+\mult@rightbox=\box33
+\mult@grightbox=\box34
+\mult@gfirstbox=\box35
+\mult@firstbox=\box36
+\@tempa=\box37
+\@tempa=\box38
+\@tempa=\box39
+\@tempa=\box40
+\@tempa=\box41
+\@tempa=\box42
+\@tempa=\box43
+\@tempa=\box44
+\@tempa=\box45
+\@tempa=\box46
+\@tempa=\box47
+\@tempa=\box48
+\@tempa=\box49
+\@tempa=\box50
+\@tempa=\box51
+\@tempa=\box52
+\@tempa=\box53
+\c@columnbadness=\count118
+\c@finalcolumnbadness=\count119
+\last@try=\dimen129
+\multicolovershoot=\dimen130
+\multicolundershoot=\dimen131
+\mult@nat@firstbox=\box54
+\colbreak@box=\box55
+\mc@col@check@num=\count120
+))) (/usr/local/texlive/2017/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2015/03/17 v1.2c Input encoding file
+\inpenc@prehook=\toks19
+\inpenc@posthook=\toks20
+(/usr/local/texlive/2017/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
+Now handling font encoding OML ...
+... no UTF-8 mapping file for font encoding OML
+Now handling font encoding T1 ...
+... processing UTF-8 mapping file for font encoding T1
+(/usr/local/texlive/2017/texmf-dist/tex/latex/base/t1enc.dfu
+File: t1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
+   defining Unicode char U+00A0 (decimal 160)
+   defining Unicode char U+00A1 (decimal 161)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00AB (decimal 171)
+   defining Unicode char U+00AD (decimal 173)
+   defining Unicode char U+00BB (decimal 187)
+   defining Unicode char U+00BF (decimal 191)
+   defining Unicode char U+00C0 (decimal 192)
+   defining Unicode char U+00C1 (decimal 193)
+   defining Unicode char U+00C2 (decimal 194)
+   defining Unicode char U+00C3 (decimal 195)
+   defining Unicode char U+00C4 (decimal 196)
+   defining Unicode char U+00C5 (decimal 197)
+   defining Unicode char U+00C6 (decimal 198)
+   defining Unicode char U+00C7 (decimal 199)
+   defining Unicode char U+00C8 (decimal 200)
+   defining Unicode char U+00C9 (decimal 201)
+   defining Unicode char U+00CA (decimal 202)
+   defining Unicode char U+00CB (decimal 203)
+   defining Unicode char U+00CC (decimal 204)
+   defining Unicode char U+00CD (decimal 205)
+   defining Unicode char U+00CE (decimal 206)
+   defining Unicode char U+00CF (decimal 207)
+   defining Unicode char U+00D0 (decimal 208)
+   defining Unicode char U+00D1 (decimal 209)
+   defining Unicode char U+00D2 (decimal 210)
+   defining Unicode char U+00D3 (decimal 211)
+   defining Unicode char U+00D4 (decimal 212)
+   defining Unicode char U+00D5 (decimal 213)
+   defining Unicode char U+00D6 (decimal 214)
+   defining Unicode char U+00D8 (decimal 216)
+   defining Unicode char U+00D9 (decimal 217)
+   defining Unicode char U+00DA (decimal 218)
+   defining Unicode char U+00DB (decimal 219)
+   defining Unicode char U+00DC (decimal 220)
+   defining Unicode char U+00DD (decimal 221)
+   defining Unicode char U+00DE (decimal 222)
+   defining Unicode char U+00DF (decimal 223)
+   defining Unicode char U+00E0 (decimal 224)
+   defining Unicode char U+00E1 (decimal 225)
+   defining Unicode char U+00E2 (decimal 226)
+   defining Unicode char U+00E3 (decimal 227)
+   defining Unicode char U+00E4 (decimal 228)
+   defining Unicode char U+00E5 (decimal 229)
+   defining Unicode char U+00E6 (decimal 230)
+   defining Unicode char U+00E7 (decimal 231)
+   defining Unicode char U+00E8 (decimal 232)
+   defining Unicode char U+00E9 (decimal 233)
+   defining Unicode char U+00EA (decimal 234)
+   defining Unicode char U+00EB (decimal 235)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00EE (decimal 238)
+   defining Unicode char U+00EF (decimal 239)
+   defining Unicode char U+00F0 (decimal 240)
+   defining Unicode char U+00F1 (decimal 241)
+   defining Unicode char U+00F2 (decimal 242)
+   defining Unicode char U+00F3 (decimal 243)
+   defining Unicode char U+00F4 (decimal 244)
+   defining Unicode char U+00F5 (decimal 245)
+   defining Unicode char U+00F6 (decimal 246)
+   defining Unicode char U+00F8 (decimal 248)
+   defining Unicode char U+00F9 (decimal 249)
+   defining Unicode char U+00FA (decimal 250)
+   defining Unicode char U+00FB (decimal 251)
+   defining Unicode char U+00FC (decimal 252)
+   defining Unicode char U+00FD (decimal 253)
+   defining Unicode char U+00FE (decimal 254)
+   defining Unicode char U+00FF (decimal 255)
+   defining Unicode char U+0100 (decimal 256)
+   defining Unicode char U+0101 (decimal 257)
+   defining Unicode char U+0102 (decimal 258)
+   defining Unicode char U+0103 (decimal 259)
+   defining Unicode char U+0104 (decimal 260)
+   defining Unicode char U+0105 (decimal 261)
+   defining Unicode char U+0106 (decimal 262)
+   defining Unicode char U+0107 (decimal 263)
+   defining Unicode char U+0108 (decimal 264)
+   defining Unicode char U+0109 (decimal 265)
+   defining Unicode char U+010A (decimal 266)
+   defining Unicode char U+010B (decimal 267)
+   defining Unicode char U+010C (decimal 268)
+   defining Unicode char U+010D (decimal 269)
+   defining Unicode char U+010E (decimal 270)
+   defining Unicode char U+010F (decimal 271)
+   defining Unicode char U+0110 (decimal 272)
+   defining Unicode char U+0111 (decimal 273)
+   defining Unicode char U+0112 (decimal 274)
+   defining Unicode char U+0113 (decimal 275)
+   defining Unicode char U+0114 (decimal 276)
+   defining Unicode char U+0115 (decimal 277)
+   defining Unicode char U+0116 (decimal 278)
+   defining Unicode char U+0117 (decimal 279)
+   defining Unicode char U+0118 (decimal 280)
+   defining Unicode char U+0119 (decimal 281)
+   defining Unicode char U+011A (decimal 282)
+   defining Unicode char U+011B (decimal 283)
+   defining Unicode char U+011C (decimal 284)
+   defining Unicode char U+011D (decimal 285)
+   defining Unicode char U+011E (decimal 286)
+   defining Unicode char U+011F (decimal 287)
+   defining Unicode char U+0120 (decimal 288)
+   defining Unicode char U+0121 (decimal 289)
+   defining Unicode char U+0122 (decimal 290)
+   defining Unicode char U+0123 (decimal 291)
+   defining Unicode char U+0124 (decimal 292)
+   defining Unicode char U+0125 (decimal 293)
+   defining Unicode char U+0128 (decimal 296)
+   defining Unicode char U+0129 (decimal 297)
+   defining Unicode char U+012A (decimal 298)
+   defining Unicode char U+012B (decimal 299)
+   defining Unicode char U+012C (decimal 300)
+   defining Unicode char U+012D (decimal 301)
+   defining Unicode char U+012E (decimal 302)
+   defining Unicode char U+012F (decimal 303)
+   defining Unicode char U+0130 (decimal 304)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0132 (decimal 306)
+   defining Unicode char U+0133 (decimal 307)
+   defining Unicode char U+0134 (decimal 308)
+   defining Unicode char U+0135 (decimal 309)
+   defining Unicode char U+0136 (decimal 310)
+   defining Unicode char U+0137 (decimal 311)
+   defining Unicode char U+0139 (decimal 313)
+   defining Unicode char U+013A (decimal 314)
+   defining Unicode char U+013B (decimal 315)
+   defining Unicode char U+013C (decimal 316)
+   defining Unicode char U+013D (decimal 317)
+   defining Unicode char U+013E (decimal 318)
+   defining Unicode char U+0141 (decimal 321)
+   defining Unicode char U+0142 (decimal 322)
+   defining Unicode char U+0143 (decimal 323)
+   defining Unicode char U+0144 (decimal 324)
+   defining Unicode char U+0145 (decimal 325)
+   defining Unicode char U+0146 (decimal 326)
+   defining Unicode char U+0147 (decimal 327)
+   defining Unicode char U+0148 (decimal 328)
+   defining Unicode char U+014A (decimal 330)
+   defining Unicode char U+014B (decimal 331)
+   defining Unicode char U+014C (decimal 332)
+   defining Unicode char U+014D (decimal 333)
+   defining Unicode char U+014E (decimal 334)
+   defining Unicode char U+014F (decimal 335)
+   defining Unicode char U+0150 (decimal 336)
+   defining Unicode char U+0151 (decimal 337)
+   defining Unicode char U+0152 (decimal 338)
+   defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+0154 (decimal 340)
+   defining Unicode char U+0155 (decimal 341)
+   defining Unicode char U+0156 (decimal 342)
+   defining Unicode char U+0157 (decimal 343)
+   defining Unicode char U+0158 (decimal 344)
+   defining Unicode char U+0159 (decimal 345)
+   defining Unicode char U+015A (decimal 346)
+   defining Unicode char U+015B (decimal 347)
+   defining Unicode char U+015C (decimal 348)
+   defining Unicode char U+015D (decimal 349)
+   defining Unicode char U+015E (decimal 350)
+   defining Unicode char U+015F (decimal 351)
+   defining Unicode char U+0160 (decimal 352)
+   defining Unicode char U+0161 (decimal 353)
+   defining Unicode char U+0162 (decimal 354)
+   defining Unicode char U+0163 (decimal 355)
+   defining Unicode char U+0164 (decimal 356)
+   defining Unicode char U+0165 (decimal 357)
+   defining Unicode char U+0168 (decimal 360)
+   defining Unicode char U+0169 (decimal 361)
+   defining Unicode char U+016A (decimal 362)
+   defining Unicode char U+016B (decimal 363)
+   defining Unicode char U+016C (decimal 364)
+   defining Unicode char U+016D (decimal 365)
+   defining Unicode char U+016E (decimal 366)
+   defining Unicode char U+016F (decimal 367)
+   defining Unicode char U+0170 (decimal 368)
+   defining Unicode char U+0171 (decimal 369)
+   defining Unicode char U+0172 (decimal 370)
+   defining Unicode char U+0173 (decimal 371)
+   defining Unicode char U+0174 (decimal 372)
+   defining Unicode char U+0175 (decimal 373)
+   defining Unicode char U+0176 (decimal 374)
+   defining Unicode char U+0177 (decimal 375)
+   defining Unicode char U+0178 (decimal 376)
+   defining Unicode char U+0179 (decimal 377)
+   defining Unicode char U+017A (decimal 378)
+   defining Unicode char U+017B (decimal 379)
+   defining Unicode char U+017C (decimal 380)
+   defining Unicode char U+017D (decimal 381)
+   defining Unicode char U+017E (decimal 382)
+   defining Unicode char U+01CD (decimal 461)
+   defining Unicode char U+01CE (decimal 462)
+   defining Unicode char U+01CF (decimal 463)
+   defining Unicode char U+01D0 (decimal 464)
+   defining Unicode char U+01D1 (decimal 465)
+   defining Unicode char U+01D2 (decimal 466)
+   defining Unicode char U+01D3 (decimal 467)
+   defining Unicode char U+01D4 (decimal 468)
+   defining Unicode char U+01E2 (decimal 482)
+   defining Unicode char U+01E3 (decimal 483)
+   defining Unicode char U+01E6 (decimal 486)
+   defining Unicode char U+01E7 (decimal 487)
+   defining Unicode char U+01E8 (decimal 488)
+   defining Unicode char U+01E9 (decimal 489)
+   defining Unicode char U+01EA (decimal 490)
+   defining Unicode char U+01EB (decimal 491)
+   defining Unicode char U+01F0 (decimal 496)
+   defining Unicode char U+01F4 (decimal 500)
+   defining Unicode char U+01F5 (decimal 501)
+   defining Unicode char U+0218 (decimal 536)
+   defining Unicode char U+0219 (decimal 537)
+   defining Unicode char U+021A (decimal 538)
+   defining Unicode char U+021B (decimal 539)
+   defining Unicode char U+0232 (decimal 562)
+   defining Unicode char U+0233 (decimal 563)
+   defining Unicode char U+1E02 (decimal 7682)
+   defining Unicode char U+1E03 (decimal 7683)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2010 (decimal 8208)
+   defining Unicode char U+2011 (decimal 8209)
+   defining Unicode char U+2012 (decimal 8210)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2015 (decimal 8213)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201A (decimal 8218)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+   defining Unicode char U+201E (decimal 8222)
+   defining Unicode char U+2030 (decimal 8240)
+   defining Unicode char U+2031 (decimal 8241)
+   defining Unicode char U+2039 (decimal 8249)
+   defining Unicode char U+203A (decimal 8250)
+   defining Unicode char U+2423 (decimal 9251)
+   defining Unicode char U+1E20 (decimal 7712)
+   defining Unicode char U+1E21 (decimal 7713)
+)
+Now handling font encoding OT1 ...
+... processing UTF-8 mapping file for font encoding OT1
+(/usr/local/texlive/2017/texmf-dist/tex/latex/base/ot1enc.dfu
+File: ot1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
+   defining Unicode char U+00A0 (decimal 160)
+   defining Unicode char U+00A1 (decimal 161)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00AD (decimal 173)
+   defining Unicode char U+00B8 (decimal 184)
+   defining Unicode char U+00BF (decimal 191)
+   defining Unicode char U+00C5 (decimal 197)
+   defining Unicode char U+00C6 (decimal 198)
+   defining Unicode char U+00D8 (decimal 216)
+   defining Unicode char U+00DF (decimal 223)
+   defining Unicode char U+00E6 (decimal 230)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00EE (decimal 238)
+   defining Unicode char U+00EF (decimal 239)
+   defining Unicode char U+00F8 (decimal 248)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0141 (decimal 321)
+   defining Unicode char U+0142 (decimal 322)
+   defining Unicode char U+0152 (decimal 338)
+   defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+0174 (decimal 372)
+   defining Unicode char U+0175 (decimal 373)
+   defining Unicode char U+0176 (decimal 374)
+   defining Unicode char U+0177 (decimal 375)
+   defining Unicode char U+0218 (decimal 536)
+   defining Unicode char U+0219 (decimal 537)
+   defining Unicode char U+021A (decimal 538)
+   defining Unicode char U+021B (decimal 539)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+)
+Now handling font encoding OMS ...
+... processing UTF-8 mapping file for font encoding OMS
+(/usr/local/texlive/2017/texmf-dist/tex/latex/base/omsenc.dfu
+File: omsenc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
+   defining Unicode char U+00A7 (decimal 167)
+   defining Unicode char U+00B6 (decimal 182)
+   defining Unicode char U+00B7 (decimal 183)
+   defining Unicode char U+2020 (decimal 8224)
+   defining Unicode char U+2021 (decimal 8225)
+   defining Unicode char U+2022 (decimal 8226)
+)
+Now handling font encoding OMX ...
+... no UTF-8 mapping file for font encoding OMX
+Now handling font encoding U ...
+... no UTF-8 mapping file for font encoding U
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+Now handling font encoding TS1 ...
+... processing UTF-8 mapping file for font encoding TS1
+(/usr/local/texlive/2017/texmf-dist/tex/latex/base/ts1enc.dfu
+File: ts1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
+   defining Unicode char U+00A2 (decimal 162)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00A4 (decimal 164)
+   defining Unicode char U+00A5 (decimal 165)
+   defining Unicode char U+00A6 (decimal 166)
+   defining Unicode char U+00A7 (decimal 167)
+   defining Unicode char U+00A8 (decimal 168)
+   defining Unicode char U+00A9 (decimal 169)
+   defining Unicode char U+00AA (decimal 170)
+   defining Unicode char U+00AC (decimal 172)
+   defining Unicode char U+00AE (decimal 174)
+   defining Unicode char U+00AF (decimal 175)
+   defining Unicode char U+00B0 (decimal 176)
+   defining Unicode char U+00B1 (decimal 177)
+   defining Unicode char U+00B2 (decimal 178)
+   defining Unicode char U+00B3 (decimal 179)
+   defining Unicode char U+00B4 (decimal 180)
+   defining Unicode char U+00B5 (decimal 181)
+   defining Unicode char U+00B6 (decimal 182)
+   defining Unicode char U+00B7 (decimal 183)
+   defining Unicode char U+00B9 (decimal 185)
+   defining Unicode char U+00BA (decimal 186)
+   defining Unicode char U+00BC (decimal 188)
+   defining Unicode char U+00BD (decimal 189)
+   defining Unicode char U+00BE (decimal 190)
+   defining Unicode char U+00D7 (decimal 215)
+   defining Unicode char U+00F7 (decimal 247)
+   defining Unicode char U+0192 (decimal 402)
+   defining Unicode char U+02C7 (decimal 711)
+   defining Unicode char U+02D8 (decimal 728)
+   defining Unicode char U+02DD (decimal 733)
+   defining Unicode char U+0E3F (decimal 3647)
+   defining Unicode char U+2016 (decimal 8214)
+   defining Unicode char U+2020 (decimal 8224)
+   defining Unicode char U+2021 (decimal 8225)
+   defining Unicode char U+2022 (decimal 8226)
+   defining Unicode char U+2030 (decimal 8240)
+   defining Unicode char U+2031 (decimal 8241)
+   defining Unicode char U+203B (decimal 8251)
+   defining Unicode char U+203D (decimal 8253)
+   defining Unicode char U+2044 (decimal 8260)
+   defining Unicode char U+204E (decimal 8270)
+   defining Unicode char U+2052 (decimal 8274)
+   defining Unicode char U+20A1 (decimal 8353)
+   defining Unicode char U+20A4 (decimal 8356)
+   defining Unicode char U+20A6 (decimal 8358)
+   defining Unicode char U+20A9 (decimal 8361)
+   defining Unicode char U+20AB (decimal 8363)
+   defining Unicode char U+20AC (decimal 8364)
+   defining Unicode char U+20B1 (decimal 8369)
+   defining Unicode char U+2103 (decimal 8451)
+   defining Unicode char U+2116 (decimal 8470)
+   defining Unicode char U+2117 (decimal 8471)
+   defining Unicode char U+211E (decimal 8478)
+   defining Unicode char U+2120 (decimal 8480)
+   defining Unicode char U+2122 (decimal 8482)
+   defining Unicode char U+2126 (decimal 8486)
+   defining Unicode char U+2127 (decimal 8487)
+   defining Unicode char U+212E (decimal 8494)
+   defining Unicode char U+2190 (decimal 8592)
+   defining Unicode char U+2191 (decimal 8593)
+   defining Unicode char U+2192 (decimal 8594)
+   defining Unicode char U+2193 (decimal 8595)
+   defining Unicode char U+2329 (decimal 9001)
+   defining Unicode char U+232A (decimal 9002)
+   defining Unicode char U+2422 (decimal 9250)
+   defining Unicode char U+25E6 (decimal 9702)
+   defining Unicode char U+25EF (decimal 9711)
+   defining Unicode char U+266A (decimal 9834)
+)
+   defining Unicode char U+00A9 (decimal 169)
+   defining Unicode char U+00AA (decimal 170)
+   defining Unicode char U+00AE (decimal 174)
+   defining Unicode char U+00BA (decimal 186)
+   defining Unicode char U+02C6 (decimal 710)
+   defining Unicode char U+02DC (decimal 732)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2026 (decimal 8230)
+   defining Unicode char U+2122 (decimal 8482)
+   defining Unicode char U+2423 (decimal 9251)
+)) (/usr/local/texlive/2017/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2017/05/19 3.10 The Babel package
+(/usr/local/texlive/2017/texmf-dist/tex/generic/babel-english/english.ldf
+Language: english 2017/01/24 v3.3q English support from the babel system
+(/usr/local/texlive/2017/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2017/05/19 3.10 Babel common definitions
+\babel@savecnt=\count121
+\U@D=\dimen132
+)
+\l@canadian = a dialect from \language\l@american 
+\l@australian = a dialect from \language\l@british 
+\l@newzealand = a dialect from \language\l@british 
+)) (/usr/local/texlive/2017/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count122
+\lst@gtempboxa=\box56
+\lst@token=\toks21
+\lst@length=\count123
+\lst@currlwidth=\dimen133
+\lst@column=\count124
+\lst@pos=\count125
+\lst@lostspace=\dimen134
+\lst@width=\dimen135
+\lst@newlines=\count126
+\lst@lineno=\count127
+\lst@maxwidth=\dimen136
+(/usr/local/texlive/2017/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
+\c@lstnumber=\count128
+\lst@skipnumbers=\count129
+\lst@framebox=\box57
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2015/06/04 1.6 listings configuration
+))
+Package: listings 2015/06/04 1.6 (Carsten Heinz)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty
+Package: fancyvrb 2008/02/07
+Style option: `fancyvrb' v2.7a, with DG/SPQR fixes, and firstline=lastline fix <2008/02/07> (tvz)
+\FV@CodeLineNo=\count130
+\FV@InFile=\read1
+\FV@TabBox=\box58
+\c@FancyVerbLine=\count131
+\FV@StepNumber=\count132
+\FV@OutFile=\write3
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/tools/tabularx.sty
+Package: tabularx 2016/02/03 v2.11 `tabularx' package (DPC)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/tools/array.sty
+Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
+\col@sep=\dimen137
+\extrarowheight=\dimen138
+\NC@list=\toks22
+\extratabsurround=\skip87
+\backup@length=\skip88
+)
+\TX@col@width=\dimen139
+\TX@old@table=\dimen140
+\TX@old@col=\dimen141
+\TX@target=\dimen142
+\TX@delta=\dimen143
+\TX@cols=\count133
+\TX@ftn=\toks23
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2016/11/05 v2.16a AMS math features
+\@mathmargin=\skip89
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+(/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks24
+\ex@=\dimen144
+)) (/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen145
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count134
+LaTeX Info: Redefining \frac on input line 213.
+\uproot@=\count135
+\leftroot@=\count136
+LaTeX Info: Redefining \overline on input line 375.
+\classnum@=\count137
+\DOTSCASE@=\count138
+LaTeX Info: Redefining \ldots on input line 472.
+LaTeX Info: Redefining \dots on input line 475.
+LaTeX Info: Redefining \cdots on input line 596.
+\Mathstrutbox@=\box59
+\strutbox@=\box60
+\big@size=\dimen146
+LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
+\macc@depth=\count139
+\c@MaxMatrixCols=\count140
+\dotsspace@=\muskip11
+\c@parentequation=\count141
+\dspbrk@lvl=\count142
+\tag@help=\toks25
+\row@=\count143
+\column@=\count144
+\maxfields@=\count145
+\andhelp@=\toks26
+\eqnshift@=\dimen147
+\alignsep@=\dimen148
+\tagshift@=\dimen149
+\tagwidth@=\dimen150
+\totwidth@=\dimen151
+\lineht@=\dimen152
+\@envbody=\toks27
+\multlinegap=\skip90
+\multlinetaggap=\skip91
+\mathdisplay@stack=\toks28
+LaTeX Info: Redefining \[ on input line 2817.
+LaTeX Info: Redefining \] on input line 2818.
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/amscls/amsthm.sty
+Package: amsthm 2015/03/04 v2.20.2
+\thm@style=\toks29
+\thm@bodyfont=\toks30
+\thm@headfont=\toks31
+\thm@notefont=\toks32
+\thm@headpunct=\toks33
+\thm@preskip=\skip92
+\thm@postskip=\skip93
+\thm@headsep=\skip94
+\dth@everypar=\toks34
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup5
+\symAMSb=\mathgroup6
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amscd.sty
+Package: amscd 2017/04/14 v2.1 AMS Commutative Diagrams
+\athelp@=\toks35
+\minaw@=\dimen153
+\bigaw@=\dimen154
+\minCDarrowwidth=\dimen155
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/pstricks/pstricks.sty
+Package: pstricks 2017/03/17 v0.63 LaTeX wrapper for `PSTricks' (RN,HV)
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pstricks/pstricks.tex (/usr/local/texlive/2017/texmf-dist/tex/generic/xkeyval/pst-xkey.tex
+File: pst-xkey.tex 2005/11/25 v1.6 PSTricks specialization of xkeyval (HA)
+) (/usr/local/texlive/2017/texmf-dist/tex/generic/pstricks/pst-fp.tex `pst-fp' v0.05, 2010/01/17 (hv)
+\pstFP@xs=\count146
+\pstFP@xia=\count147
+\pstFP@xib=\count148
+\pstFP@xfa=\count149
+\pstFP@xfb=\count150
+\pstFP@rega=\count151
+\pstFP@regb=\count152
+\pstFP@regs=\count153
+\pstFP@times=\count154
+) (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+\pgfutil@everybye=\toks36
+\pgfutil@tempdima=\dimen156
+\pgfutil@tempdimb=\dimen157
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.tex)) (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks37
+\pgfkeys@temptoks=\toks38
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.tex
+\pgfkeys@tmptoks=\toks39
+)) (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex
+\pgf@x=\dimen158
+\pgf@xa=\dimen159
+\pgf@xb=\dimen160
+\pgf@xc=\dimen161
+\pgf@y=\dimen162
+\pgf@ya=\dimen163
+\pgf@yb=\dimen164
+\pgf@yc=\dimen165
+\c@pgf@counta=\count155
+\c@pgf@countb=\count156
+\c@pgf@countc=\count157
+\c@pgf@countd=\count158
+\pgfutil@tempcnta=\count159
+\pgfutil@tempcntb=\count160
+) (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen166
+\pgfmath@count=\count161
+\pgfmath@box=\box61
+\pgfmath@toks=\toks40
+\pgfmath@stack@operand=\toks41
+\pgfmath@stack@operation=\toks42
+) (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex) (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.tex) (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.tex) (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex) (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex) (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.tex) (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex) (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics.code.tex))) (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count162
+))
+\pgffor@iter=\dimen167
+\pgffor@skip=\dimen168
+\pgffor@stack=\toks43
+\pgffor@toks=\toks44
+)
+\psLoopIndex=\count163
+`PSTricks' v2.73  <2017/05/18> (tvz)
+\pst@dima=\dimen169
+\pst@dimb=\dimen170
+\pst@dimc=\dimen171
+\pst@dimd=\dimen172
+\pst@dimg=\dimen173
+\pst@dimh=\dimen174
+\pst@dimm=\dimen175
+\pst@dimn=\dimen176
+\pst@dimo=\dimen177
+\pst@dimp=\dimen178
+\pst@hbox=\box62
+\pst@ibox=\box63
+\pst@boxg=\box64
+\pst@cnta=\count164
+\pst@cntb=\count165
+\pst@cntc=\count166
+\pst@cntd=\count167
+\pst@cntg=\count168
+\pst@cnth=\count169
+\pst@cntm=\count170
+\pst@cntn=\count171
+\pst@cnto=\count172
+\pst@cntp=\count173
+\@zero=\count174
+\pst@toks=\toks45
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pstricks/pstricks.con)
+\psunit=\dimen179
+\psxunit=\dimen180
+\psyunit=\dimen181
+\pst@C@@rType=\count175
+\pslinewidth=\dimen182
+\psk@startLW=\dimen183
+\psk@endLW=\dimen184
+\pst@customdefs=\toks46
+\pslinearc=\dimen185
+\pst@symbolStep=\dimen186
+\pst@symbolWidth=\dimen187
+\pst@symbolLinewidth=\dimen188
+\everypsbox=\toks47
+\psframesep=\dimen189
+\pslabelsep=\dimen190
+\sh@wgridXunit=\dimen191
+\sh@wgridYunit=\dimen192
+\pst@shift=\dimen193
+)
+File: pstricks.tex 2017/05/18 v2.73 `PSTricks' (tvz,hv)
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pstricks/pst-fp.tex)
+File: pst-fp.tex 2017/05/18 v2.73 `PST-fp' (hv)
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/pst-node/pst-node.sty
+Package: pst-node 2012/09/18 v1.01 LaTeX wrapper for `pst-node' (HV)
+Package: pst-node 2010/04/22 package wrapper for pst-node.tex
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pst-node/pst-node.tex  v1.39, 2017/01/20
+\psrow=\count176
+\pscol=\count177
+\psmatrixcnt=\count178
+\psrowsep=\skip95
+\pscolsep=\skip96
+\pst@args=\count179
+\num@pts=\count180
+\pst@argcnt=\count181
+)
+File: pst-node.tex 2017/01/20 1.39 `pst-node' (tvz,hv)
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2017/04/14 v1.1b Standard LaTeX Graphics (DPC,SPQR)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+)
+\Gin@req@height=\dimen194
+\Gin@req@width=\dimen195
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/pst-plot/pst-plot.sty
+Package: pst-plot 2011/06/05 v1.00 LaTeX wrapper for `pst-plot' (HV)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/xkeyval/pst-xkey.sty
+Package: pst-xkey 2005/11/25 v1.6 package wrapper for pst-xkey.tex (HA)
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/multido/multido.sty
+Package: multido 2004/05/17 package wrapper for PSTricks `multido.tex', (HV/RN)
+(/usr/local/texlive/2017/texmf-dist/tex/generic/multido/multido.tex  v1.42, 2010/05/14 <tvz>
+\multido@count=\count182
+\multidocount=\count183
+\multido@stuff=\toks48
+)
+File: multido.tex 2010/05/14 v1.42 `multido' (tvz,hv)
+)
+Package: pst-plot 2011/04/13 package wrapper for pst-plot.tex (hv)
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pst-plot/pst-plot.tex (/usr/local/texlive/2017/texmf-dist/tex/generic/pst-tools/pst-tools.tex `PST-tools' v0.06, 2017/05/12 (hv)) (/usr/local/texlive/2017/texmf-dist/tex/generic/pstricks-add/pstricks-add.tex (/usr/local/texlive/2017/texmf-dist/tex/generic/pst-arrow/pst-arrow.tex `pst-arrow' v0.01, 2016/09/01 (dr,hv)
+\pshooklength=\dimen196
+\pshookwidth=\dimen197
+) (/usr/local/texlive/2017/texmf-dist/tex/generic/pst-3d/pst-3d.tex `PST-3d' v1.11, 2010/02/14 (tvz)) (/usr/local/texlive/2017/texmf-dist/tex/generic/pst-math/pst-math.tex `pst-math' v0.63 , (CJ,hv)) `pstricks-add' v3.83, 2017/05/10 (dr,hv)
+\psparallelogramsep=\dimen198
+\pst@cntC=\count184
+\chart@ColorIndex=\dimen199
+\chart@ColorStep=\dimen256
+\pst@chartHeight=\dimen257
+\pst@chartStackDepth=\dimen258
+\pst@chartStackWidth=\dimen259
+\chart@Toggle=\count185
+\psVectorCtr=\count186
+)  v1.78, 2017/04/16 (tvz,hv)
+\pstRadUnit=\dimen260
+\pstRadUnitInv=\dimen261
+\pst@linecnt=\count187
+\RCD@file=\read2
+\psxlabelsep=\dimen262
+\psylabelsep=\dimen263
+\psk@subticksize=\dimen264
+\pst@xticksizeA=\dimen265
+\pst@xticksizeB=\dimen266
+\pst@xticksizeC=\dimen267
+\pst@yticksizeA=\dimen268
+\pst@yticksizeB=\dimen269
+\pst@yticksizeC=\dimen270
+\@digitcounter=\count188
+\psk@llx=\dimen271
+\psk@lly=\dimen272
+\psk@urx=\dimen273
+\psk@ury=\dimen274
+\pst@xunit=\dimen275
+\pst@yunit=\dimen276
+)
+File: pst-plot.tex 2017/04/16 1.78 `pst-plot' (tvz,hv)
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/subfigure/subfigure.sty
+Package: subfigure 2002/03/15 v2.1.5 subfigure package
+\subfigtopskip=\skip97
+\subfigcapskip=\skip98
+\subfigcaptopadj=\dimen277
+\subfigbottomskip=\skip99
+\subfigcapmargin=\dimen278
+\subfiglabelskip=\skip100
+\c@subfigure=\count189
+\c@lofdepth=\count190
+\c@subtable=\count191
+\c@lotdepth=\count192
+****************************************
+* Local config file subfigure.cfg used *
+****************************************
+(/usr/local/texlive/2017/texmf-dist/tex/latex/subfigure/subfigure.cfg)
+\subfig@top=\skip101
+\subfig@bottom=\skip102
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/cite/cite.sty
+LaTeX Info: Redefining \cite on input line 302.
+LaTeX Info: Redefining \nocite on input line 332.
+Package: cite 2015/02/27  v 5.5
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count193
+\float@exts=\toks49
+\float@box=\box65
+\@float@everytoks=\toks50
+\@floatcapt=\box66
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2016/05/22 v1.7-166 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 67.
+\captionmargin=\dimen279
+\captionmargin@=\dimen280
+\captionwidth=\dimen281
+\caption@tempdima=\dimen282
+\caption@indent=\dimen283
+\caption@parindent=\dimen284
+\caption@hangindent=\dimen285
+)
+\c@ContinuedFloat=\count194
+Package caption Info: float package is loaded.
+Package caption Info: hyperref package is loaded.
+Package caption Info: listings package is loaded.
+Package caption Info: subfigure package is loaded.
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2016/04/27 v1.618033 publication quality tables
+\heavyrulewidth=\dimen286
+\lightrulewidth=\dimen287
+\cmidrulewidth=\dimen288
+\belowrulesep=\dimen289
+\belowbottomsep=\dimen290
+\aboverulesep=\dimen291
+\abovetopsep=\dimen292
+\cmidrulesep=\dimen293
+\cmidrulekern=\dimen294
+\defaultaddspace=\dimen295
+\@cmidla=\count195
+\@cmidlb=\count196
+\@aboverulesep=\dimen296
+\@belowrulesep=\dimen297
+\@thisruleclass=\count197
+\@lastruleclass=\count198
+\@thisrulewidth=\dimen298
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/framed/framed.sty
+Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
+\OuterFrameSep=\skip103
+\fb@frw=\dimen299
+\fb@frh=\dimen300
+\FrameRule=\dimen301
+\FrameSep=\dimen302
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/mathtools/mathtools.sty
+Package: mathtools 2015/11/12 v1.18 mathematical typesetting tools
+(/usr/local/texlive/2017/texmf-dist/tex/latex/mathtools/mhsetup.sty
+Package: mhsetup 2010/01/21 v1.2a programming setup (MH)
+)
+LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
+\g_MT_multlinerow_int=\count199
+\l_MT_multwidth_dim=\dimen303
+\origjot=\skip104
+\l_MT_shortvdotswithinadjustabove_dim=\dimen304
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen305
+\l_MT_above_intertext_sep=\dimen306
+\l_MT_below_intertext_sep=\dimen307
+\l_MT_above_shortintertext_sep=\dimen308
+\l_MT_below_shortintertext_sep=\dimen309
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/verbatimbox/verbatimbox.sty
+Package: verbatimbox 2014/03/12 v3.13 Routines for placing verbatim text into boxes, useful in places where the verbatim environment is inaccessible. Secondarily, for adding vertical buffer around an object.
+(/usr/local/texlive/2017/texmf-dist/tex/latex/tools/verbatim.sty
+Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks51
+\verbatim@line=\toks52
+\verbatim@in@stream=\read3
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/readarray/readarray.sty
+Package: readarray 2016/11/07\ 2.0\ Routines for inputting 2D and 3D array data and recalling it on an element-by-element basis.
+(/usr/local/texlive/2017/texmf-dist/tex/generic/listofitems/listofitems.sty (/usr/local/texlive/2017/texmf-dist/tex/generic/listofitems/listofitems.tex
+\loi_nestcnt=\count266
+)
+Package: listofitems 2016/11/18 v1.3 Grab items in lists using user-specified sep char
+)
+\c@@index=\count267
+\c@@plane=\count268
+\c@@row=\count269
+\c@@col=\count270
+\c@use@args=\count271
+\c@@record=\count272
+\c@arg@index=\count273
+\c@break@count=\count274
+\c@index@count=\count275
+\c@loop@count=\count276
+\Arg@toks=\toks53
+\@arrayident@toks=\toks54
+\rdar@file=\read4
+readarray: bounds checking OFF
+)
+\savedverbbox=\box67
+\c@VerbboxLineNo=\count277
+\boxtopsep=\dimen310
+\boxbottomsep=\dimen311
+\ps@tempdima=\dimen312
+\ps@tempboxa=\box68
+\boxtop@sep=\skip105
+\boxbottom@sep=\skip106
+)
+\c@exmp=\count278
+(/usr/local/texlive/2017/texmf-dist/tex/latex/svg/svg.sty
+Package: svg 2017/03/28 v2.00a (include SVG pictures)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/koma-script/scrbase.sty
+Package: scrbase 2017/04/13 v3.23 KOMA-Script package (KOMA-Script-independent basics and keyval usage)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/koma-script/scrlfile.sty
+Package: scrlfile 2017/04/13 v3.23 KOMA-Script package (loading files)
+Package scrlfile, 2017/04/13 v3.23 KOMA-Script package (loading files)
+                  Copyright (C) Markus Kohm
+
+)) (/usr/local/texlive/2017/texmf-dist/tex/latex/tools/shellesc.sty
+Package: shellesc 2016/06/07 v0.02a unified shell escape interface for LaTeX
+Package shellesc Info: Unrestricted shell escape enabled on input line 67.
+)
+\c@svg@param@lastpage=\count279
+\c@svg@param@currpage=\count280
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/transparent.sty
+Package: transparent 2016/05/16 v1.1 Transparency via pdfTeX's color stack (HO)
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/courier.sty
+Package: courier 2005/04/12 PSNFSS-v9.2a (WaS) 
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2015/06/04 1.6 listings language file
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
+)
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\\' on input line 109.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\\' on input line 109.
+
+(build/main.aux
+
+LaTeX Warning: Label `eq4' multiply defined.
+
+
+LaTeX Warning: Label `eq6' multiply defined.
+
+
+LaTeX Warning: Label `eq:extended' multiply defined.
+
+
+LaTeX Warning: Label `eq6' multiply defined.
+
+)
+\openout1 = `main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 117.
+LaTeX Font Info:    ... okay on input line 117.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 117.
+LaTeX Font Info:    ... okay on input line 117.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 117.
+LaTeX Font Info:    ... okay on input line 117.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 117.
+LaTeX Font Info:    ... okay on input line 117.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 117.
+LaTeX Font Info:    ... okay on input line 117.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 117.
+LaTeX Font Info:    ... okay on input line 117.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 117.
+LaTeX Font Info:    ... okay on input line 117.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 117.
+LaTeX Font Info:    ... okay on input line 117.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 117.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 117.
+(/usr/local/texlive/2017/texmf-dist/tex/latex/base/ts1cmr.fd
+File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 117.
+LaTeX Font Info:    Try loading font information for T1+pplj on input line 117.
+(/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/t1pplj.fd
+File: t1pplj.fd 2004/09/06 font definitions for T1/pplj.
+)
+\AtBeginShipoutBox=\box69
+Package hyperref Info: Link coloring OFF on input line 117.
+(/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
+(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
+)
+\c@section@level=\count281
+)
+LaTeX Info: Redefining \ref on input line 117.
+LaTeX Info: Redefining \pageref on input line 117.
+LaTeX Info: Redefining \nameref on input line 117.
+(build/main.out) (build/main.out)
+\@outlinefile=\write4
+\openout4 = `main.out'.
+
+ABD: EverySelectfont initializing macros
+LaTeX Info: Redefining \selectfont on input line 117.
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: letterpaper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside asymmetric 
+* h-part:(L,W,R)=(72.26999pt, 312.0pt, 230.02501pt)
+* v-part:(T,H,B)=(72.26999pt, 616.0pt, 106.7pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=312.0pt
+* \textheight=616.0pt
+* \oddsidemargin=0.0pt
+* \evensidemargin=0.0pt
+* \topmargin=-42.0pt
+* \headheight=14.0pt
+* \headsep=28.0pt
+* \topskip=10.0pt
+* \footskip=25.29494pt
+* \marginparwidth=144.0pt
+* \marginparsep=24.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+(/usr/local/texlive/2017/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count282
+\scratchdimen=\dimen313
+\scratchbox=\box70
+\nofMPsegments=\count283
+\nofMParguments=\count284
+\everyMPshowfont=\toks55
+\MPscratchCnt=\count285
+\MPscratchDim=\dimen314
+\MPnumerator=\count286
+\makeMPintoPDFobject=\count287
+\everyMPtoPDFconversion=\toks56
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+(/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 438.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPEG,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+(/usr/local/texlive/2017/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+))
+\langwohyphens=\language84
+\c@lstlisting=\count288
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+LaTeX Font Info:    Try loading font information for T1+phv on input line 118.
+(/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/t1phv.fd
+File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
+)
+LaTeX Font Info:    Font shape `T1/phv/m/n' will be
+(Font)              scaled to size 8.99994pt on input line 118.
+LaTeX Font Info:    Font shape `T1/phv/m/n' will be
+(Font)              scaled to size 16.19989pt on input line 118.
+
+Class tufte-book Warning: Proper spacing of ALL-CAPS letters has not been set up.
+This message occurred on input line 118.
+
+LaTeX Font Info:    Font shape `T1/phv/m/n' will be
+(Font)              scaled to size 32.39978pt on input line 118.
+
+Class tufte-book Warning: Proper spacing of ALL-CAPS letters has not been set up.
+This message occurred on input line 118.
+
+LaTeX Font Info:    Font shape `T1/phv/m/n' will be
+(Font)              scaled to size 12.59991pt on input line 118.
+
+Class tufte-book Warning: Proper spacing of ALL-CAPS letters has not been set up.
+This message occurred on input line 118.
+
+[1
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+
+{/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2
+
+
+] (./INTRODUCTION.tex
+Chapter 1.
+LaTeX Font Info:    Try loading font information for TS1+pplj on input line 138.
+(/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/ts1pplj.fd
+File: ts1pplj.fd 2004/09/06 font definitions for TS1/pplj.
+)
+LaTeX Font Info:    Try loading font information for OT1+pplx on input line 144.
+(/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/ot1pplx.fd
+File: ot1pplx.fd 2004/09/06 font definitions for OT1/pplx.
+)
+LaTeX Font Info:    Try loading font information for OML+zplm on input line 144.
+(/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/omlzplm.fd
+File: omlzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OML/zplm.
+)
+LaTeX Font Info:    Try loading font information for OMS+zplm on input line 144.
+(/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/omszplm.fd
+File: omszplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMS/zplm.
+)
+LaTeX Font Info:    Try loading font information for OMX+zplm on input line 144.
+(/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/omxzplm.fd
+File: omxzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMX/zplm.
+)
+LaTeX Font Info:    Try loading font information for OT1+zplm on input line 144.
+(/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/ot1zplm.fd
+File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
+)
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 10.42007pt on input line 144.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 7.91925pt on input line 144.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 6.25204pt on input line 144.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 10.42007pt on input line 144.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 7.91925pt on input line 144.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 6.25204pt on input line 144.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 8.33606pt on input line 157.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 5.21004pt on input line 157.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 8.33606pt on input line 157.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 5.21004pt on input line 157.
+
+LaTeX Warning: Marginpar on page 3 moved.
+
+[3
+
+]
+
+LaTeX Warning: Marginpar on page 4 moved.
+
+Package svg Info: Last page of `./svg-inkscape/control_network_svg-tex.pdf' is 4 on input line 173.
+(./svg-inkscape/control_network_svg-tex.pdf_tex <./svg-inkscape/control_network_svg-tex.pdf, id=91, page=1, 204.92296pt x 130.15503pt>
+File: ./svg-inkscape/control_network_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/control_network_svg-tex.pdf, page 1>
+Package pdftex.def Info: ./svg-inkscape/control_network_svg-tex.pdf, page1 used on input line 52.
+(pdftex.def)             Requested size: 204.92294pt x 130.15471pt.
+<./svg-inkscape/control_network_svg-tex.pdf, id=92, page=2, 204.92296pt x 130.15503pt>
+File: ./svg-inkscape/control_network_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/control_network_svg-tex.pdf, page 2>
+Package pdftex.def Info: ./svg-inkscape/control_network_svg-tex.pdf, page2 used on input line 54.
+(pdftex.def)             Requested size: 204.92294pt x 130.15471pt.
+<./svg-inkscape/control_network_svg-tex.pdf, id=93, page=3, 204.92296pt x 130.15503pt>
+File: ./svg-inkscape/control_network_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/control_network_svg-tex.pdf, page 3>
+Package pdftex.def Info: ./svg-inkscape/control_network_svg-tex.pdf, page3 used on input line 58.
+(pdftex.def)             Requested size: 204.92294pt x 130.15471pt.
+<./svg-inkscape/control_network_svg-tex.pdf, id=94, page=4, 204.92296pt x 130.15503pt>
+File: ./svg-inkscape/control_network_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/control_network_svg-tex.pdf, page 4>
+Package pdftex.def Info: ./svg-inkscape/control_network_svg-tex.pdf, page4 used on input line 60.
+(pdftex.def)             Requested size: 204.92294pt x 130.15471pt.
+)
+Underfull \hbox (badness 10000) in paragraph at lines 176--176
+[]\T1/pplj/m/n/10 Figure 1.1: |Net-worked con-trol
+ []
+
+
+Package svg Warning: You should specify the image size with parameters
+(svg)                `width' and `height' or `scale' instead of using
+(svg)                `\svgscale' or `\svgwidth' on input line 187.
+
+Package svg Info: Last page of `./svg-inkscape/ncs2_svg-tex.pdf' is 12 on input line 187.
+(./svg-inkscape/ncs2_svg-tex.pdf_tex <./svg-inkscape/ncs2_svg-tex.pdf, id=96, page=1, 580.05202pt x 265.40776pt>
+File: ./svg-inkscape/ncs2_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/ncs2_svg-tex.pdf, page 1>
+Package pdftex.def Info: ./svg-inkscape/ncs2_svg-tex.pdf, page1 used on input line 52.
+(pdftex.def)             Requested size: 312.0pt x 142.75917pt.
+LaTeX Font Info:    Font shape `T1/pplj/bx/n' in size <10> not available
+(Font)              Font shape `T1/pplj/b/n' tried instead on input line 53.
+<./svg-inkscape/ncs2_svg-tex.pdf, id=97, page=2, 580.05202pt x 265.40776pt>
+File: ./svg-inkscape/ncs2_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/ncs2_svg-tex.pdf, page 2>
+Package pdftex.def Info: ./svg-inkscape/ncs2_svg-tex.pdf, page2 used on input line 55.
+(pdftex.def)             Requested size: 312.0pt x 142.75917pt.
+<./svg-inkscape/ncs2_svg-tex.pdf, id=98, page=3, 580.05202pt x 265.40776pt>
+File: ./svg-inkscape/ncs2_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/ncs2_svg-tex.pdf, page 3>
+Package pdftex.def Info: ./svg-inkscape/ncs2_svg-tex.pdf, page3 used on input line 58.
+(pdftex.def)             Requested size: 312.0pt x 142.75917pt.
+<./svg-inkscape/ncs2_svg-tex.pdf, id=99, page=4, 580.05202pt x 265.40776pt>
+File: ./svg-inkscape/ncs2_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/ncs2_svg-tex.pdf, page 4>
+Package pdftex.def Info: ./svg-inkscape/ncs2_svg-tex.pdf, page4 used on input line 61.
+(pdftex.def)             Requested size: 312.0pt x 142.75917pt.
+<./svg-inkscape/ncs2_svg-tex.pdf, id=100, page=5, 580.05202pt x 265.40776pt>
+File: ./svg-inkscape/ncs2_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/ncs2_svg-tex.pdf, page 5>
+Package pdftex.def Info: ./svg-inkscape/ncs2_svg-tex.pdf, page5 used on input line 65.
+(pdftex.def)             Requested size: 312.0pt x 142.75917pt.
+<./svg-inkscape/ncs2_svg-tex.pdf, id=101, page=6, 580.05202pt x 265.40776pt>
+File: ./svg-inkscape/ncs2_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/ncs2_svg-tex.pdf, page 6>
+Package pdftex.def Info: ./svg-inkscape/ncs2_svg-tex.pdf, page6 used on input line 70.
+(pdftex.def)             Requested size: 312.0pt x 142.75917pt.
+<./svg-inkscape/ncs2_svg-tex.pdf, id=102, page=7, 580.05202pt x 265.40776pt>
+File: ./svg-inkscape/ncs2_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/ncs2_svg-tex.pdf, page 7>
+Package pdftex.def Info: ./svg-inkscape/ncs2_svg-tex.pdf, page7 used on input line 75.
+(pdftex.def)             Requested size: 312.0pt x 142.75917pt.
+<./svg-inkscape/ncs2_svg-tex.pdf, id=103, page=8, 580.05202pt x 265.40776pt>
+File: ./svg-inkscape/ncs2_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/ncs2_svg-tex.pdf, page 8>
+Package pdftex.def Info: ./svg-inkscape/ncs2_svg-tex.pdf, page8 used on input line 80.
+(pdftex.def)             Requested size: 312.0pt x 142.75917pt.
+<./svg-inkscape/ncs2_svg-tex.pdf, id=104, page=9, 580.05202pt x 265.40776pt>
+File: ./svg-inkscape/ncs2_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/ncs2_svg-tex.pdf, page 9>
+Package pdftex.def Info: ./svg-inkscape/ncs2_svg-tex.pdf, page9 used on input line 85.
+(pdftex.def)             Requested size: 312.0pt x 142.75917pt.
+<./svg-inkscape/ncs2_svg-tex.pdf, id=105, page=10, 580.05202pt x 265.40776pt>
+File: ./svg-inkscape/ncs2_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/ncs2_svg-tex.pdf, page 10>
+Package pdftex.def Info: ./svg-inkscape/ncs2_svg-tex.pdf, page10 used on input line 90.
+(pdftex.def)             Requested size: 312.0pt x 142.75917pt.
+<./svg-inkscape/ncs2_svg-tex.pdf, id=106, page=11, 580.05202pt x 265.40776pt>
+File: ./svg-inkscape/ncs2_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/ncs2_svg-tex.pdf, page 11>
+Package pdftex.def Info: ./svg-inkscape/ncs2_svg-tex.pdf, page11 used on input line 94.
+(pdftex.def)             Requested size: 312.0pt x 142.75917pt.
+<./svg-inkscape/ncs2_svg-tex.pdf, id=107, page=12, 580.05202pt x 265.40776pt>
+File: ./svg-inkscape/ncs2_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/ncs2_svg-tex.pdf, page 12>
+Package pdftex.def Info: ./svg-inkscape/ncs2_svg-tex.pdf, page12 used on input line 96.
+(pdftex.def)             Requested size: 312.0pt x 142.75917pt.
+)
+
+LaTeX Warning: Marginpar on page 4 moved.
+
+
+Overfull \hbox (6.91194pt too wide) in paragraph at lines 194--194
+|[]\T1/pplj/m/it/12 Basic model de-vel-op-ment , from con-tin-u-ous to dis-crete mod-
+ []
+
+
+Class tufte-book Warning: Proper spacing of small-caps letters has not been set up.
+This message occurred on input line 197.
+
+[4 <./svg-inkscape/control_network_svg-tex.pdf> <./svg-inkscape/control_network_svg-tex.pdf
+
+pdfTeX warning: pdflatex (file ./svg-inkscape/control_network_svg-tex.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./svg-inkscape/control_network_svg-tex.pdf
+
+pdfTeX warning: pdflatex (file ./svg-inkscape/control_network_svg-tex.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./svg-inkscape/control_network_svg-tex.pdf
+
+pdfTeX warning: pdflatex (file ./svg-inkscape/control_network_svg-tex.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>]
+
+LaTeX Warning: Marginpar on page 5 moved.
+
+LaTeX Font Info:    Try loading font information for U+fplmbb on input line 207.
+(/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/ufplmbb.fd
+File: ufplmbb.fd 2003/10/30 Fontinst v1.914 font definitions for U/fplmbb.
+)
+
+Class tufte-book Warning: Proper spacing of small-caps letters has not been set up.
+This message occurred on input line 224.
+
+[5 <./svg-inkscape/ncs2_svg-tex.pdf> <./svg-inkscape/ncs2_svg-tex.pdf
+
+pdfTeX warning: pdflatex (file ./svg-inkscape/ncs2_svg-tex.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./svg-inkscape/ncs2_svg-tex.pdf
+
+pdfTeX warning: pdflatex (file ./svg-inkscape/ncs2_svg-tex.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./svg-inkscape/ncs2_svg-tex.pdf
+
+pdfTeX warning: pdflatex (file ./svg-inkscape/ncs2_svg-tex.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./svg-inkscape/ncs2_svg-tex.pdf
+
+pdfTeX warning: pdflatex (file ./svg-inkscape/ncs2_svg-tex.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./svg-inkscape/ncs2_svg-tex.pdf
+
+pdfTeX warning: pdflatex (file ./svg-inkscape/ncs2_svg-tex.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./svg-inkscape/ncs2_svg-tex.pdf
+
+pdfTeX warning: pdflatex (file ./svg-inkscape/ncs2_svg-tex.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./svg-inkscape/ncs2_svg-tex.pdf
+
+pdfTeX warning: pdflatex (file ./svg-inkscape/ncs2_svg-tex.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./svg-inkscape/ncs2_svg-tex.pdf
+
+pdfTeX warning: pdflatex (file ./svg-inkscape/ncs2_svg-tex.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./svg-inkscape/ncs2_svg-tex.pdf
+
+pdfTeX warning: pdflatex (file ./svg-inkscape/ncs2_svg-tex.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./svg-inkscape/ncs2_svg-tex.pdf
+
+pdfTeX warning: pdflatex (file ./svg-inkscape/ncs2_svg-tex.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./svg-inkscape/ncs2_svg-tex.pdf
+
+pdfTeX warning: pdflatex (file ./svg-inkscape/ncs2_svg-tex.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>]
+Overfull \hbox (10.4386pt too wide) in paragraph at lines 225--226
+[]\T1/pplj/m/n/10 For the shake of sim-plic-ity we re-name the ma-tri-ces $\OML/zplm/m/it/10 e[]$ \T1/pplj/m/n/10 and $[][] \OML/zplm/m/it/10 e[]Bds$ 
+ []
+
+
+LaTeX Warning: Marginpar on page 6 moved.
+
+LaTeX Font Info:    Try loading font information for T1+pcr on input line 253.
+(/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/t1pcr.fd
+File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
+)
+LaTeX Font Info:    Font shape `T1/pplj/bx/n' in size <8> not available
+(Font)              Font shape `T1/pplj/b/n' tried instead on input line 263.
+
+Overfull \hbox (154.80019pt too wide) in paragraph at lines 263--263
+[][]  
+ []
+
+
+LaTeX Warning: Marginpar on page 6 moved.
+
+
+Overfull \hbox (154.80019pt too wide) in paragraph at lines 285--285
+[][]  
+ []
+
+
+LaTeX Warning: Marginpar on page 6 moved.
+
+
+Class tufte-book Warning: Proper spacing of small-caps letters has not been set up.
+This message occurred on input line 325.
+
+[6]
+
+LaTeX Warning: Marginpar on page 7 moved.
+
+
+LaTeX Warning: Marginpar on page 7 moved.
+
+
+LaTeX Warning: Marginpar on page 7 moved.
+
+
+Class tufte-book Warning: Proper spacing of small-caps letters has not been set up.
+This message occurred on input line 376.
+
+[7]
+
+Class tufte-book Warning: Proper spacing of small-caps letters has not been set up.
+This message occurred on input line 491.
+
+[8]
+Overfull \hbox (154.80019pt too wide) in paragraph at lines 574--574
+[][]  
+ []
+
+
+LaTeX Warning: Marginpar on page 9 moved.
+
+
+Class tufte-book Warning: Proper spacing of small-caps letters has not been set up.
+This message occurred on input line 581.
+
+[9]) (./DELAYED_MODEL.tex
+
+Class tufte-book Warning: Proper spacing of small-caps letters has not been set up.
+This message occurred on input line 131.
+
+[10]
+Chapter 2.
+
+Package svg Warning: You should specify the image size with parameters
+(svg)                `width' and `height' or `scale' instead of using
+(svg)                `\svgscale' or `\svgwidth' on input line 139.
+
+Package svg Info: Last page of `./svg-inkscape/ncs_svg-tex.pdf' is 7 on input line 139.
+(./svg-inkscape/ncs_svg-tex.pdf_tex <./svg-inkscape/ncs_svg-tex.pdf, id=184, page=1, 503.78616pt x 178.8969pt>
+File: ./svg-inkscape/ncs_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/ncs_svg-tex.pdf, page 1>
+Package pdftex.def Info: ./svg-inkscape/ncs_svg-tex.pdf, page1 used on input line 52.
+(pdftex.def)             Requested size: 312.0pt x 110.79208pt.
+<./svg-inkscape/ncs_svg-tex.pdf, id=185, page=2, 503.78616pt x 178.8969pt>
+File: ./svg-inkscape/ncs_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/ncs_svg-tex.pdf, page 2>
+Package pdftex.def Info: ./svg-inkscape/ncs_svg-tex.pdf, page2 used on input line 54.
+(pdftex.def)             Requested size: 312.0pt x 110.79208pt.
+<./svg-inkscape/ncs_svg-tex.pdf, id=186, page=3, 503.78616pt x 178.8969pt>
+File: ./svg-inkscape/ncs_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/ncs_svg-tex.pdf, page 3>
+Package pdftex.def Info: ./svg-inkscape/ncs_svg-tex.pdf, page3 used on input line 56.
+(pdftex.def)             Requested size: 312.0pt x 110.79208pt.
+<./svg-inkscape/ncs_svg-tex.pdf, id=187, page=4, 503.78616pt x 178.8969pt>
+File: ./svg-inkscape/ncs_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/ncs_svg-tex.pdf, page 4>
+Package pdftex.def Info: ./svg-inkscape/ncs_svg-tex.pdf, page4 used on input line 59.
+(pdftex.def)             Requested size: 312.0pt x 110.79208pt.
+<./svg-inkscape/ncs_svg-tex.pdf, id=188, page=5, 503.78616pt x 178.8969pt>
+File: ./svg-inkscape/ncs_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/ncs_svg-tex.pdf, page 5>
+Package pdftex.def Info: ./svg-inkscape/ncs_svg-tex.pdf, page5 used on input line 61.
+(pdftex.def)             Requested size: 312.0pt x 110.79208pt.
+<./svg-inkscape/ncs_svg-tex.pdf, id=189, page=6, 503.78616pt x 178.8969pt>
+File: ./svg-inkscape/ncs_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/ncs_svg-tex.pdf, page 6>
+Package pdftex.def Info: ./svg-inkscape/ncs_svg-tex.pdf, page6 used on input line 65.
+(pdftex.def)             Requested size: 312.0pt x 110.79208pt.
+<./svg-inkscape/ncs_svg-tex.pdf, id=190, page=7, 503.78616pt x 178.8969pt>
+File: ./svg-inkscape/ncs_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/ncs_svg-tex.pdf, page 7>
+Package pdftex.def Info: ./svg-inkscape/ncs_svg-tex.pdf, page7 used on input line 67.
+(pdftex.def)             Requested size: 312.0pt x 110.79208pt.
+)
+
+Package svg Warning: You should specify the image size with parameters
+(svg)                `width' and `height' or `scale' instead of using
+(svg)                `\svgscale' or `\svgwidth' on input line 159.
+
+Package svg Info: Last page of `./svg-inkscape/NRS_timeline_net_svg-tex.pdf' is 7 on input line 159.
+(./svg-inkscape/NRS_timeline_net_svg-tex.pdf_tex <./svg-inkscape/NRS_timeline_net_svg-tex.pdf, id=193, page=1, 132.25577pt x 123.64948pt>
+File: ./svg-inkscape/NRS_timeline_net_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/NRS_timeline_net_svg-tex.pdf, page 1>
+Package pdftex.def Info: ./svg-inkscape/NRS_timeline_net_svg-tex.pdf, page1 used on input line 52.
+(pdftex.def)             Requested size: 144.0pt x 134.63373pt.
+<./svg-inkscape/NRS_timeline_net_svg-tex.pdf, id=194, page=2, 132.25577pt x 123.64948pt>
+File: ./svg-inkscape/NRS_timeline_net_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/NRS_timeline_net_svg-tex.pdf, page 2>
+Package pdftex.def Info: ./svg-inkscape/NRS_timeline_net_svg-tex.pdf, page2 used on input line 54.
+(pdftex.def)             Requested size: 144.0pt x 134.63373pt.
+<./svg-inkscape/NRS_timeline_net_svg-tex.pdf, id=195, page=3, 132.25577pt x 123.64948pt>
+File: ./svg-inkscape/NRS_timeline_net_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/NRS_timeline_net_svg-tex.pdf, page 3>
+Package pdftex.def Info: ./svg-inkscape/NRS_timeline_net_svg-tex.pdf, page3 used on input line 56.
+(pdftex.def)             Requested size: 144.0pt x 134.63373pt.
+<./svg-inkscape/NRS_timeline_net_svg-tex.pdf, id=196, page=4, 132.25577pt x 123.64948pt>
+File: ./svg-inkscape/NRS_timeline_net_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/NRS_timeline_net_svg-tex.pdf, page 4>
+Package pdftex.def Info: ./svg-inkscape/NRS_timeline_net_svg-tex.pdf, page4 used on input line 58.
+(pdftex.def)             Requested size: 144.0pt x 134.63373pt.
+<./svg-inkscape/NRS_timeline_net_svg-tex.pdf, id=197, page=5, 132.25577pt x 123.64948pt>
+File: ./svg-inkscape/NRS_timeline_net_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/NRS_timeline_net_svg-tex.pdf, page 5>
+Package pdftex.def Info: ./svg-inkscape/NRS_timeline_net_svg-tex.pdf, page5 used on input line 60.
+(pdftex.def)             Requested size: 144.0pt x 134.63373pt.
+<./svg-inkscape/NRS_timeline_net_svg-tex.pdf, id=198, page=6, 132.25577pt x 123.64948pt>
+File: ./svg-inkscape/NRS_timeline_net_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/NRS_timeline_net_svg-tex.pdf, page 6>
+Package pdftex.def Info: ./svg-inkscape/NRS_timeline_net_svg-tex.pdf, page6 used on input line 62.
+(pdftex.def)             Requested size: 144.0pt x 134.63373pt.
+<./svg-inkscape/NRS_timeline_net_svg-tex.pdf, id=199, page=7, 132.25577pt x 123.64948pt>
+File: ./svg-inkscape/NRS_timeline_net_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/NRS_timeline_net_svg-tex.pdf, page 7>
+Package pdftex.def Info: ./svg-inkscape/NRS_timeline_net_svg-tex.pdf, page7 used on input line 69.
+(pdftex.def)             Requested size: 144.0pt x 134.63373pt.
+)
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 161.
+See the caption package documentation for explanation.
+
+
+Overfull \hbox (2.328pt too wide) in paragraph at lines 157--161
+  [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 161--161
+[]\T1/pplj/m/n/10 Figure 2.1: |[]Networked sys-tem
+ []
+
+[11
+
+ <./svg-inkscape/ncs_svg-tex.pdf> <./svg-inkscape/ncs_svg-tex.pdf
+
+pdfTeX warning: pdflatex (file ./svg-inkscape/ncs_svg-tex.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./svg-inkscape/ncs_svg-tex.pdf
+
+pdfTeX warning: pdflatex (file ./svg-inkscape/ncs_svg-tex.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./svg-inkscape/ncs_svg-tex.pdf
+
+pdfTeX warning: pdflatex (file ./svg-inkscape/ncs_svg-tex.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./svg-inkscape/ncs_svg-tex.pdf
+
+pdfTeX warning: pdflatex (file ./svg-inkscape/ncs_svg-tex.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./svg-inkscape/ncs_svg-tex.pdf
+
+pdfTeX warning: pdflatex (file ./svg-inkscape/ncs_svg-tex.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./svg-inkscape/ncs_svg-tex.pdf
+
+pdfTeX warning: pdflatex (file ./svg-inkscape/ncs_svg-tex.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./svg-inkscape/NRS_timeline_net_svg-tex.pdf
+
+pdfTeX warning: pdflatex (file ./svg-inkscape/NRS_timeline_net_svg-tex.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./svg-inkscape/NRS_timeline_net_svg-tex.pdf
+
+pdfTeX warning: pdflatex (file ./svg-inkscape/NRS_timeline_net_svg-tex.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./svg-inkscape/NRS_timeline_net_svg-tex.pdf
+
+pdfTeX warning: pdflatex (file ./svg-inkscape/NRS_timeline_net_svg-tex.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./svg-inkscape/NRS_timeline_net_svg-tex.pdf
+
+pdfTeX warning: pdflatex (file ./svg-inkscape/NRS_timeline_net_svg-tex.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./svg-inkscape/NRS_timeline_net_svg-tex.pdf
+
+pdfTeX warning: pdflatex (file ./svg-inkscape/NRS_timeline_net_svg-tex.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./svg-inkscape/NRS_timeline_net_svg-tex.pdf
+
+pdfTeX warning: pdflatex (file ./svg-inkscape/NRS_timeline_net_svg-tex.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./svg-inkscape/NRS_timeline_net_svg-tex.pdf
+
+pdfTeX warning: pdflatex (file ./svg-inkscape/NRS_timeline_net_svg-tex.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>]
+
+Package caption Warning: \label without proper reference on input line 186.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig:basic_timing' on page 12 undefined on input line 180.
+
+
+Package svg Warning: You should specify the image size with parameters
+(svg)                `width' and `height' or `scale' instead of using
+(svg)                `\svgscale' or `\svgwidth' on input line 184.
+
+Package svg Info: Last page of `./svg-inkscape/NRS_timeline_basic_svg-tex.pdf' is 7 on input line 184.
+(./svg-inkscape/NRS_timeline_basic_svg-tex.pdf_tex <./svg-inkscape/NRS_timeline_basic_svg-tex.pdf, id=212, page=1, 223.1549pt x 82.59709pt>
+File: ./svg-inkscape/NRS_timeline_basic_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/NRS_timeline_basic_svg-tex.pdf, page 1>
+Package pdftex.def Info: ./svg-inkscape/NRS_timeline_basic_svg-tex.pdf, page1 used on input line 52.
+(pdftex.def)             Requested size: 312.0pt x 115.49648pt.
+<./svg-inkscape/NRS_timeline_basic_svg-tex.pdf, id=213, page=2, 223.1549pt x 82.59709pt>
+File: ./svg-inkscape/NRS_timeline_basic_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/NRS_timeline_basic_svg-tex.pdf, page 2>
+Package pdftex.def Info: ./svg-inkscape/NRS_timeline_basic_svg-tex.pdf, page2 used on input line 54.
+(pdftex.def)             Requested size: 312.0pt x 115.49648pt.
+<./svg-inkscape/NRS_timeline_basic_svg-tex.pdf, id=214, page=3, 223.1549pt x 82.59709pt>
+File: ./svg-inkscape/NRS_timeline_basic_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/NRS_timeline_basic_svg-tex.pdf, page 3>
+Package pdftex.def Info: ./svg-inkscape/NRS_timeline_basic_svg-tex.pdf, page3 used on input line 56.
+(pdftex.def)             Requested size: 312.0pt x 115.49648pt.
+<./svg-inkscape/NRS_timeline_basic_svg-tex.pdf, id=215, page=4, 223.1549pt x 82.59709pt>
+File: ./svg-inkscape/NRS_timeline_basic_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/NRS_timeline_basic_svg-tex.pdf, page 4>
+Package pdftex.def Info: ./svg-inkscape/NRS_timeline_basic_svg-tex.pdf, page4 used on input line 58.
+(pdftex.def)             Requested size: 312.0pt x 115.49648pt.
+<./svg-inkscape/NRS_timeline_basic_svg-tex.pdf, id=216, page=5, 223.1549pt x 82.59709pt>
+File: ./svg-inkscape/NRS_timeline_basic_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/NRS_timeline_basic_svg-tex.pdf, page 5>
+Package pdftex.def Info: ./svg-inkscape/NRS_timeline_basic_svg-tex.pdf, page5 used on input line 60.
+(pdftex.def)             Requested size: 312.0pt x 115.49648pt.
+<./svg-inkscape/NRS_timeline_basic_svg-tex.pdf, id=217, page=6, 223.1549pt x 82.59709pt>
+File: ./svg-inkscape/NRS_timeline_basic_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/NRS_timeline_basic_svg-tex.pdf, page 6>
+Package pdftex.def Info: ./svg-inkscape/NRS_timeline_basic_svg-tex.pdf, page6 used on input line 62.
+(pdftex.def)             Requested size: 312.0pt x 115.49648pt.
+<./svg-inkscape/NRS_timeline_basic_svg-tex.pdf, id=218, page=7, 223.1549pt x 82.59709pt>
+File: ./svg-inkscape/NRS_timeline_basic_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/NRS_timeline_basic_svg-tex.pdf, page 7>
+Package pdftex.def Info: ./svg-inkscape/NRS_timeline_basic_svg-tex.pdf, page7 used on input line 64.
+(pdftex.def)             Requested size: 312.0pt x 115.49648pt.
+)
+Underfull \hbox (badness 10000) in paragraph at lines 187--187
+[]\T1/pplj/m/n/10 Figure 2.2: |Time anal-y-sis of the
+ []
+
+
+Class tufte-book Warning: Proper spacing of small-caps letters has not been set up.
+This message occurred on input line 190.
+
+[12 <./svg-inkscape/NRS_timeline_basic_svg-tex.pdf> <./svg-inkscape/NRS_timeline_basic_svg-tex.pdf
+
+pdfTeX warning: pdflatex (file ./svg-inkscape/NRS_timeline_basic_svg-tex.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./svg-inkscape/NRS_timeline_basic_svg-tex.pdf
+
+pdfTeX warning: pdflatex (file ./svg-inkscape/NRS_timeline_basic_svg-tex.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./svg-inkscape/NRS_timeline_basic_svg-tex.pdf
+
+pdfTeX warning: pdflatex (file ./svg-inkscape/NRS_timeline_basic_svg-tex.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./svg-inkscape/NRS_timeline_basic_svg-tex.pdf
+
+pdfTeX warning: pdflatex (file ./svg-inkscape/NRS_timeline_basic_svg-tex.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./svg-inkscape/NRS_timeline_basic_svg-tex.pdf
+
+pdfTeX warning: pdflatex (file ./svg-inkscape/NRS_timeline_basic_svg-tex.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./svg-inkscape/NRS_timeline_basic_svg-tex.pdf
+
+pdfTeX warning: pdflatex (file ./svg-inkscape/NRS_timeline_basic_svg-tex.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>]
+
+Package svg Warning: You should specify the image size with parameters
+(svg)                `width' and `height' or `scale' instead of using
+(svg)                `\svgscale' or `\svgwidth' on input line 195.
+
+Package svg Info: Last page of `./svg-inkscape/NRS_control_basic_svg-tex.pdf' is 8 on input line 195.
+(./svg-inkscape/NRS_control_basic_svg-tex.pdf_tex <./svg-inkscape/NRS_control_basic_svg-tex.pdf, id=227, page=1, 238.98227pt x 138.63112pt>
+File: ./svg-inkscape/NRS_control_basic_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/NRS_control_basic_svg-tex.pdf, page 1>
+Package pdftex.def Info: ./svg-inkscape/NRS_control_basic_svg-tex.pdf, page1 used on input line 52.
+(pdftex.def)             Requested size: 312.0pt x 180.99675pt.
+<./svg-inkscape/NRS_control_basic_svg-tex.pdf, id=228, page=2, 238.98227pt x 138.63112pt>
+File: ./svg-inkscape/NRS_control_basic_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/NRS_control_basic_svg-tex.pdf, page 2>
+Package pdftex.def Info: ./svg-inkscape/NRS_control_basic_svg-tex.pdf, page2 used on input line 54.
+(pdftex.def)             Requested size: 312.0pt x 180.99675pt.
+<./svg-inkscape/NRS_control_basic_svg-tex.pdf, id=229, page=3, 238.98227pt x 138.63112pt>
+File: ./svg-inkscape/NRS_control_basic_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/NRS_control_basic_svg-tex.pdf, page 3>
+Package pdftex.def Info: ./svg-inkscape/NRS_control_basic_svg-tex.pdf, page3 used on input line 56.
+(pdftex.def)             Requested size: 312.0pt x 180.99675pt.
+<./svg-inkscape/NRS_control_basic_svg-tex.pdf, id=230, page=4, 238.98227pt x 138.63112pt>
+File: ./svg-inkscape/NRS_control_basic_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/NRS_control_basic_svg-tex.pdf, page 4>
+Package pdftex.def Info: ./svg-inkscape/NRS_control_basic_svg-tex.pdf, page4 used on input line 58.
+(pdftex.def)             Requested size: 312.0pt x 180.99675pt.
+<./svg-inkscape/NRS_control_basic_svg-tex.pdf, id=231, page=5, 238.98227pt x 138.63112pt>
+File: ./svg-inkscape/NRS_control_basic_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/NRS_control_basic_svg-tex.pdf, page 5>
+Package pdftex.def Info: ./svg-inkscape/NRS_control_basic_svg-tex.pdf, page5 used on input line 60.
+(pdftex.def)             Requested size: 312.0pt x 180.99675pt.
+<./svg-inkscape/NRS_control_basic_svg-tex.pdf, id=232, page=6, 238.98227pt x 138.63112pt>
+File: ./svg-inkscape/NRS_control_basic_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/NRS_control_basic_svg-tex.pdf, page 6>
+Package pdftex.def Info: ./svg-inkscape/NRS_control_basic_svg-tex.pdf, page6 used on input line 62.
+(pdftex.def)             Requested size: 312.0pt x 180.99675pt.
+<./svg-inkscape/NRS_control_basic_svg-tex.pdf, id=233, page=7, 238.98227pt x 138.63112pt>
+File: ./svg-inkscape/NRS_control_basic_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/NRS_control_basic_svg-tex.pdf, page 7>
+Package pdftex.def Info: ./svg-inkscape/NRS_control_basic_svg-tex.pdf, page7 used on input line 64.
+(pdftex.def)             Requested size: 312.0pt x 180.99675pt.
+<./svg-inkscape/NRS_control_basic_svg-tex.pdf, id=234, page=8, 238.98227pt x 138.63112pt>
+File: ./svg-inkscape/NRS_control_basic_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/NRS_control_basic_svg-tex.pdf, page 8>
+Package pdftex.def Info: ./svg-inkscape/NRS_control_basic_svg-tex.pdf, page8 used on input line 67.
+(pdftex.def)             Requested size: 312.0pt x 180.99675pt.
+)
+Underfull \hbox (badness 10000) in paragraph at lines 198--198
+[]\T1/pplj/m/n/10 Figure 2.3: |Con-trol sig-nal
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 198--198
+\T1/pplj/m/n/10 change in-stants due to the
+ []
+
+
+LaTeX Warning: Marginpar on page 13 moved.
+
+
+Class tufte-book Warning: Proper spacing of small-caps letters has not been set up.
+This message occurred on input line 232.
+
+[13 <./svg-inkscape/NRS_control_basic_svg-tex.pdf> <./svg-inkscape/NRS_control_basic_svg-tex.pdf
+
+pdfTeX warning: pdflatex (file ./svg-inkscape/NRS_control_basic_svg-tex.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./svg-inkscape/NRS_control_basic_svg-tex.pdf
+
+pdfTeX warning: pdflatex (file ./svg-inkscape/NRS_control_basic_svg-tex.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./svg-inkscape/NRS_control_basic_svg-tex.pdf
+
+pdfTeX warning: pdflatex (file ./svg-inkscape/NRS_control_basic_svg-tex.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./svg-inkscape/NRS_control_basic_svg-tex.pdf
+
+pdfTeX warning: pdflatex (file ./svg-inkscape/NRS_control_basic_svg-tex.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./svg-inkscape/NRS_control_basic_svg-tex.pdf
+
+pdfTeX warning: pdflatex (file ./svg-inkscape/NRS_control_basic_svg-tex.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./svg-inkscape/NRS_control_basic_svg-tex.pdf
+
+pdfTeX warning: pdflatex (file ./svg-inkscape/NRS_control_basic_svg-tex.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./svg-inkscape/NRS_control_basic_svg-tex.pdf
+
+pdfTeX warning: pdflatex (file ./svg-inkscape/NRS_control_basic_svg-tex.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>]
+
+LaTeX Warning: Marginpar on page 14 moved.
+
+
+LaTeX Warning: Marginpar on page 14 moved.
+
+
+Overfull \hbox (154.80019pt too wide) in paragraph at lines 338--338
+[][]  
+ []
+
+
+LaTeX Warning: Marginpar on page 14 moved.
+
+
+Overfull \hbox (30.0pt too wide) in paragraph at lines 351--351
+[]        \T1/pcr/m/n/10 k=acker(Phi_extended,Gamma_extended,z) %Controler[] 
+ []
+
+
+Class tufte-book Warning: Proper spacing of small-caps letters has not been set up.
+This message occurred on input line 352.
+
+[14]
+
+Package svg Warning: You should specify the image size with parameters
+(svg)                `width' and `height' or `scale' instead of using
+(svg)                `\svgscale' or `\svgwidth' on input line 368.
+
+Package svg Info: Last page of `./svg-inkscape/NRS_control_basic_long_svg-tex.pdf' is 7 on input line 368.
+(./svg-inkscape/NRS_control_basic_long_svg-tex.pdf_tex <./svg-inkscape/NRS_control_basic_long_svg-tex.pdf, id=260, page=1, 238.98227pt x 156.2971pt>
+File: ./svg-inkscape/NRS_control_basic_long_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/NRS_control_basic_long_svg-tex.pdf, page 1>
+Package pdftex.def Info: ./svg-inkscape/NRS_control_basic_long_svg-tex.pdf, page1 used on input line 52.
+(pdftex.def)             Requested size: 312.0pt x 204.06145pt.
+<./svg-inkscape/NRS_control_basic_long_svg-tex.pdf, id=261, page=2, 238.98227pt x 156.2971pt>
+File: ./svg-inkscape/NRS_control_basic_long_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/NRS_control_basic_long_svg-tex.pdf, page 2>
+Package pdftex.def Info: ./svg-inkscape/NRS_control_basic_long_svg-tex.pdf, page2 used on input line 54.
+(pdftex.def)             Requested size: 312.0pt x 204.06145pt.
+<./svg-inkscape/NRS_control_basic_long_svg-tex.pdf, id=262, page=3, 238.98227pt x 156.2971pt>
+File: ./svg-inkscape/NRS_control_basic_long_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/NRS_control_basic_long_svg-tex.pdf, page 3>
+Package pdftex.def Info: ./svg-inkscape/NRS_control_basic_long_svg-tex.pdf, page3 used on input line 56.
+(pdftex.def)             Requested size: 312.0pt x 204.06145pt.
+<./svg-inkscape/NRS_control_basic_long_svg-tex.pdf, id=263, page=4, 238.98227pt x 156.2971pt>
+File: ./svg-inkscape/NRS_control_basic_long_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/NRS_control_basic_long_svg-tex.pdf, page 4>
+Package pdftex.def Info: ./svg-inkscape/NRS_control_basic_long_svg-tex.pdf, page4 used on input line 58.
+(pdftex.def)             Requested size: 312.0pt x 204.06145pt.
+<./svg-inkscape/NRS_control_basic_long_svg-tex.pdf, id=264, page=5, 238.98227pt x 156.2971pt>
+File: ./svg-inkscape/NRS_control_basic_long_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/NRS_control_basic_long_svg-tex.pdf, page 5>
+Package pdftex.def Info: ./svg-inkscape/NRS_control_basic_long_svg-tex.pdf, page5 used on input line 60.
+(pdftex.def)             Requested size: 312.0pt x 204.06145pt.
+<./svg-inkscape/NRS_control_basic_long_svg-tex.pdf, id=265, page=6, 238.98227pt x 156.2971pt>
+File: ./svg-inkscape/NRS_control_basic_long_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/NRS_control_basic_long_svg-tex.pdf, page 6>
+Package pdftex.def Info: ./svg-inkscape/NRS_control_basic_long_svg-tex.pdf, page6 used on input line 62.
+(pdftex.def)             Requested size: 312.0pt x 204.06145pt.
+<./svg-inkscape/NRS_control_basic_long_svg-tex.pdf, id=266, page=7, 238.98227pt x 156.2971pt>
+File: ./svg-inkscape/NRS_control_basic_long_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/NRS_control_basic_long_svg-tex.pdf, page 7>
+Package pdftex.def Info: ./svg-inkscape/NRS_control_basic_long_svg-tex.pdf, page7 used on input line 65.
+(pdftex.def)             Requested size: 312.0pt x 204.06145pt.
+)
+Underfull \hbox (badness 10000) in paragraph at lines 371--371
+[]\T1/pplj/m/n/10 Figure 2.4: |Con-trol sig-nal
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 371--371
+\T1/pplj/m/n/10 change in-stants due to the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 371--371
+\T1/pplj/m/n/10 de-lays in-duced by the net-work.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 371--371
+\T1/pplj/m/n/10 In this case the de-lay is larger
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 371--371
+\T1/pplj/m/n/10 than the sam-pling pe-riod, and
+ []
+
+
+Package caption Warning: \label without proper reference on input line 369.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig:basic_control_long' on page 15 undefined on input line 373.
+
+
+LaTeX Warning: Marginpar on page 15 moved.
+
+
+LaTeX Warning: Marginpar on page 15 moved.
+
+
+Class tufte-book Warning: Proper spacing of small-caps letters has not been set up.
+This message occurred on input line 404.
+
+[15 <./svg-inkscape/NRS_control_basic_long_svg-tex.pdf> <./svg-inkscape/NRS_control_basic_long_svg-tex.pdf
+
+pdfTeX warning: pdflatex (file ./svg-inkscape/NRS_control_basic_long_svg-tex.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./svg-inkscape/NRS_control_basic_long_svg-tex.pdf
+
+pdfTeX warning: pdflatex (file ./svg-inkscape/NRS_control_basic_long_svg-tex.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./svg-inkscape/NRS_control_basic_long_svg-tex.pdf
+
+pdfTeX warning: pdflatex (file ./svg-inkscape/NRS_control_basic_long_svg-tex.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./svg-inkscape/NRS_control_basic_long_svg-tex.pdf
+
+pdfTeX warning: pdflatex (file ./svg-inkscape/NRS_control_basic_long_svg-tex.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./svg-inkscape/NRS_control_basic_long_svg-tex.pdf
+
+pdfTeX warning: pdflatex (file ./svg-inkscape/NRS_control_basic_long_svg-tex.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./svg-inkscape/NRS_control_basic_long_svg-tex.pdf
+
+pdfTeX warning: pdflatex (file ./svg-inkscape/NRS_control_basic_long_svg-tex.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>]
+Overfull \hbox (154.80019pt too wide) in paragraph at lines 468--468
+[][]  
+ []
+
+
+LaTeX Warning: Marginpar on page 16 moved.
+
+
+Overfull \hbox (24.0pt too wide) in paragraph at lines 481--481
+[]        \T1/pcr/m/n/10 z=[0.5, -0.5 , 0 , 0 ];          %Discrete poles[] 
+ []
+
+
+Overfull \hbox (30.0pt too wide) in paragraph at lines 482--482
+[]        \T1/pcr/m/n/10 k=acker(Phi_extended,Gamma_extended,z) %Controler[] 
+ []
+
+) (./LYAPUNOV.tex
+\c@dfn=\count289
+\c@eqn=\count290
+\c@lem=\count291
+\c@thm=\count292
+\c@cor=\count293
+
+Class tufte-book Warning: Proper spacing of small-caps letters has not been set up.
+This message occurred on input line 155.
+
+[16]
+Chapter 3.
+[17
+
+]
+
+Class tufte-book Warning: Proper spacing of small-caps letters has not been set up.
+This message occurred on input line 250.
+
+[18]
+
+Class tufte-book Warning: Proper spacing of small-caps letters has not been set up.
+This message occurred on input line 315.
+
+[19]
+
+Package amsmath Warning: Foreign command \over;
+(amsmath)                \frac or \genfrac should be used instead
+(amsmath)                 on input line 318.
+
+
+Class tufte-book Warning: Proper spacing of small-caps letters has not been set up.
+This message occurred on input line 363.
+
+[20]
+
+Class tufte-book Warning: Proper spacing of small-caps letters has not been set up.
+This message occurred on input line 428.
+
+[21]
+
+Class tufte-book Warning: Proper spacing of small-caps letters has not been set up.
+This message occurred on input line 479.
+
+[22]
+
+Class tufte-book Warning: Proper spacing of small-caps letters has not been set up.
+This message occurred on input line 532.
+
+[23]
+
+Class tufte-book Warning: Proper spacing of small-caps letters has not been set up.
+This message occurred on input line 581.
+
+[24]
+
+Class tufte-book Warning: Proper spacing of small-caps letters has not been set up.
+This message occurred on input line 627.
+
+[25]
+
+Class tufte-book Warning: Proper spacing of small-caps letters has not been set up.
+This message occurred on input line 681.
+
+[26]) (./LMI.tex
+
+Class tufte-book Warning: Proper spacing of small-caps letters has not been set up.
+This message occurred on input line 132.
+
+[27] [28
+
+]
+Chapter 4.
+
+LaTeX Warning: Marginpar on page 29 moved.
+
+Package svg Info: Last page of `./svg-inkscape/vector_svg-tex.pdf' is 1 on input line 147.
+(./svg-inkscape/vector_svg-tex.pdf_tex <./svg-inkscape/vector_svg-tex.pdf, id=386, page=1, 121.57916pt x 121.57913pt>
+File: ./svg-inkscape/vector_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/vector_svg-tex.pdf, page 1>
+Package pdftex.def Info: ./svg-inkscape/vector_svg-tex.pdf, page1 used on input line 52.
+(pdftex.def)             Requested size: 121.57915pt x 121.57883pt.
+)
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 148.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Marginpar on page 29 moved.
+
+Package svg Info: Last page of `./svg-inkscape/vector2_svg-tex.pdf' is 1 on input line 160.
+(./svg-inkscape/vector2_svg-tex.pdf_tex <./svg-inkscape/vector2_svg-tex.pdf, id=390, page=1, 121.57916pt x 121.57913pt>
+File: ./svg-inkscape/vector2_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/vector2_svg-tex.pdf, page 1>
+Package pdftex.def Info: ./svg-inkscape/vector2_svg-tex.pdf, page1 used on input line 52.
+(pdftex.def)             Requested size: 121.57915pt x 121.57883pt.
+)
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 161.
+See the caption package documentation for explanation.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 161--161
+[]\T1/pplj/m/n/10 Figure 4.2: |[]Reulting curve af-ter
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 161--161
+\T1/pplj/m/n/10 com-put-ing $\OML/zplm/m/it/10 x[]Ax$ \T1/pplj/m/n/10 for all pos-si-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 161--161
+\T1/pplj/m/n/10 ble val-ues of $\OML/zplm/m/it/10 x$ \T1/pplj/m/n/10 in the unit cir-cle.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 161--161
+\T1/pplj/m/n/10 The blue line has been scaled to
+ []
+
+
+LaTeX Warning: Marginpar on page 29 moved.
+
+[29 <./svg-inkscape/vector_svg-tex.pdf> <./svg-inkscape/vector2_svg-tex.pdf
+
+pdfTeX warning: pdflatex (file ./svg-inkscape/vector2_svg-tex.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>]
+Overfull \hbox (25.61102pt too wide) in paragraph at lines 177--179
+\T1/pplj/m/n/10 and is given by $\OML/zplm/m/it/10 r \OT1/zplm/m/n/10 = [](\OT1/pplx/m/n/10 2\OML/zplm/m/it/10 ^^Yt\OT1/zplm/m/n/10 )(\OT1/pplx/m/n/10 2 []\OT1/zplm/m/n/10 (\OT1/pplx/m/n/10 2\OML/zplm/m/it/10 ^^Yt\OT1/zplm/m/n/10 ) + \OT1/pplx/m/n/10 4 []\OT1/zplm/m/n/10 (\OT1/pplx/m/n/10 2\OML/zplm/m/it/10 ^^Yt\OT1/zplm/m/n/10 )) + [](\OT1/pplx/m/n/10 2\OML/zplm/m/it/10 ^^Yt\OT1/zplm/m/n/10 )([](\OT1/pplx/m/n/10 2\OML/zplm/m/it/10 ^^Yt\OT1/zplm/m/n/10 ) + 
+ []
+
+
+LaTeX Warning: Marginpar on page 30 moved.
+
+
+LaTeX Warning: Marginpar on page 30 moved.
+
+Package svg Info: Last page of `./svg-inkscape/vector3_svg-tex.pdf' is 1 on input line 188.
+(./svg-inkscape/vector3_svg-tex.pdf_tex <./svg-inkscape/vector3_svg-tex.pdf, id=409, page=1, 121.57916pt x 121.57913pt>
+File: ./svg-inkscape/vector3_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/vector3_svg-tex.pdf, page 1>
+Package pdftex.def Info: ./svg-inkscape/vector3_svg-tex.pdf, page1 used on input line 52.
+(pdftex.def)             Requested size: 121.57915pt x 121.57883pt.
+)
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 189.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Marginpar on page 30 moved.
+
+
+Class tufte-book Warning: Proper spacing of small-caps letters has not been set up.
+This message occurred on input line 214.
+
+[30 <./svg-inkscape/vector3_svg-tex.pdf>]
+Overfull \hbox (68.56174pt too wide) in paragraph at lines 260--260
+[]  
+ []
+
+
+Overfull \hbox (62.45119pt too wide) in paragraph at lines 277--277
+[]  
+ []
+
+
+Class tufte-book Warning: Proper spacing of small-caps letters has not been set up.
+This message occurred on input line 287.
+
+[31] [32
+
+]
+Chapter 5.
+
+LaTeX Warning: Marginpar on page 33 moved.
+
+[33]
+
+LaTeX Warning: Marginpar on page 34 moved.
+
+
+LaTeX Warning: Marginpar on page 34 moved.
+
+
+LaTeX Warning: Marginpar on page 34 moved.
+
+
+LaTeX Warning: Marginpar on page 34 moved.
+
+
+Class tufte-book Warning: Proper spacing of small-caps letters has not been set up.
+This message occurred on input line 387.
+
+[34]
+Overfull \hbox (54.0pt too wide) in paragraph at lines 415--415
+[]    \T1/pcr/m/n/10 Linear matrix variable 2x2 (symmetric, real, 3 variables)[] 
+ []
+
+
+Class tufte-book Warning: Proper spacing of small-caps letters has not been set up.
+This message occurred on input line 437.
+
+[35]
+Overfull \hbox (66.0pt too wide) in paragraph at lines 445--445
+[]    \T1/pcr/m/n/10 SeDuMi 1.3 by AdvOL, 2005-2008 and Jos F. Sturm, 1998-2003.[] 
+ []
+
+
+Overfull \hbox (12.0pt too wide) in paragraph at lines 446--446
+[]    \T1/pcr/m/n/10 Alg = 2: xz-corrector, theta = 0.250, beta = 0.500[] 
+ []
+
+
+Overfull \hbox (144.0pt too wide) in paragraph at lines 449--449
+[]     \T1/pcr/m/n/10 it :     b*y       gap    delta  rate   t/tP*  t/tD*   feas cg cg  prec[] 
+ []
+
+
+Overfull \hbox (156.0pt too wide) in paragraph at lines 451--451
+[]      \T1/pcr/m/n/10 1 :  -1.93E-01 4.38E+00 0.000 0.2592 0.9000 0.9000   1.91  1  1  2.3E+00[] 
+ []
+
+
+Overfull \hbox (156.0pt too wide) in paragraph at lines 452--452
+[]      \T1/pcr/m/n/10 2 :  -8.05E-03 3.99E-01 0.000 0.0912 0.9900 0.9900   1.79  1  1  5.2E-01[] 
+ []
+
+
+Overfull \hbox (156.0pt too wide) in paragraph at lines 453--453
+[]      \T1/pcr/m/n/10 3 :   5.28E-06 2.83E-04 0.000 0.0007 0.9999 0.9999   1.10  1  1  7.3E-05[] 
+ []
+
+
+Overfull \hbox (156.0pt too wide) in paragraph at lines 454--454
+[]      \T1/pcr/m/n/10 4 :   5.24E-13 2.84E-11 0.000 0.0000 1.0000 1.0000   1.00  1  1  7.3E-12[] 
+ []
+
+
+Overfull \hbox (36.0pt too wide) in paragraph at lines 457--457
+[]      \T1/pcr/m/n/10 4      0.3   2.7  0.0000000000e+00  5.2390377904e-13[] 
+ []
+
+
+Overfull \hbox (132.0pt too wide) in paragraph at lines 458--458
+[]    \T1/pcr/m/n/10 |Ax-b| =   6.0e-12, [Ay-c]_+ =   5.2E-13, |x|=  1.1e+00, |y|=  5.2e-13[] 
+ []
+
+
+Class tufte-book Warning: Proper spacing of small-caps letters has not been set up.
+This message occurred on input line 478.
+
+[36]
+
+Class tufte-book Warning: Proper spacing of small-caps letters has not been set up.
+This message occurred on input line 501.
+
+[37] [38
+
+]
+Chapter 6.
+(./red_extra.pdf_tex <red_extra.pdf, id=484, page=1, 105.77275pt x 105.68137pt>
+File: red_extra.pdf Graphic file (type pdf)
+<use red_extra.pdf, page 1>
+Package pdftex.def Info: red_extra.pdf, page1 used on input line 52.
+(pdftex.def)             Requested size: 105.77274pt x 105.68755pt.
+)
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 507.
+See the caption package documentation for explanation.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 507--507
+[]\T1/pplj/m/n/10 Figure 6.1: |[]Networked sys-tem
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 507--507
+\T1/pplj/m/n/10 with an ex-tra node in-ject-ing
+ []
+
+(./NRS_timeline1.pdf_tex <NRS_timeline1.pdf, id=487, page=1, 126.85951pt x 123.64948pt>
+File: NRS_timeline1.pdf Graphic file (type pdf)
+<use NRS_timeline1.pdf, page 1>
+Package pdftex.def Info: NRS_timeline1.pdf, page1 used on input line 52.
+(pdftex.def)             Requested size: 126.85951pt x 123.6567pt.
+<NRS_timeline1.pdf, id=488, page=2, 126.85951pt x 123.64948pt>
+File: NRS_timeline1.pdf Graphic file (type pdf)
+<use NRS_timeline1.pdf, page 2>
+Package pdftex.def Info: NRS_timeline1.pdf, page2 used on input line 54.
+(pdftex.def)             Requested size: 126.85951pt x 123.6567pt.
+<NRS_timeline1.pdf, id=489, page=3, 126.85951pt x 123.64948pt>
+File: NRS_timeline1.pdf Graphic file (type pdf)
+<use NRS_timeline1.pdf, page 3>
+Package pdftex.def Info: NRS_timeline1.pdf, page3 used on input line 56.
+(pdftex.def)             Requested size: 126.85951pt x 123.6567pt.
+<NRS_timeline1.pdf, id=490, page=4, 126.85951pt x 123.64948pt>
+File: NRS_timeline1.pdf Graphic file (type pdf)
+<use NRS_timeline1.pdf, page 4>
+Package pdftex.def Info: NRS_timeline1.pdf, page4 used on input line 58.
+(pdftex.def)             Requested size: 126.85951pt x 123.6567pt.
+<NRS_timeline1.pdf, id=491, page=5, 126.85951pt x 123.64948pt>
+File: NRS_timeline1.pdf Graphic file (type pdf)
+<use NRS_timeline1.pdf, page 5>
+Package pdftex.def Info: NRS_timeline1.pdf, page5 used on input line 60.
+(pdftex.def)             Requested size: 126.85951pt x 123.6567pt.
+<NRS_timeline1.pdf, id=492, page=6, 126.85951pt x 123.64948pt>
+File: NRS_timeline1.pdf Graphic file (type pdf)
+<use NRS_timeline1.pdf, page 6>
+Package pdftex.def Info: NRS_timeline1.pdf, page6 used on input line 62.
+(pdftex.def)             Requested size: 126.85951pt x 123.6567pt.
+)
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 515.
+See the caption package documentation for explanation.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 515--515
+[]\T1/pplj/m/n/10 Figure 6.2: |[]Hypotetic time-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 515--515
+\T1/pplj/m/n/10 line 1, the ex-tra node does
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 515--515
+\T1/pplj/m/n/10 not in-ter-fer-ence into de loop
+ []
+
+
+LaTeX Warning: Marginpar on page 39 moved.
+
+(./NRS_timeline2.pdf_tex <NRS_timeline2.pdf, id=493, page=1, 142.26378pt x 142.26378pt>
+File: NRS_timeline2.pdf Graphic file (type pdf)
+<use NRS_timeline2.pdf, page 1>
+Package pdftex.def Info: NRS_timeline2.pdf, page1 used on input line 52.
+(pdftex.def)             Requested size: 142.26378pt x 142.27644pt.
+<NRS_timeline2.pdf, id=494, page=2, 142.26378pt x 142.26378pt>
+File: NRS_timeline2.pdf Graphic file (type pdf)
+<use NRS_timeline2.pdf, page 2>
+Package pdftex.def Info: NRS_timeline2.pdf, page2 used on input line 54.
+(pdftex.def)             Requested size: 142.26378pt x 142.27644pt.
+<NRS_timeline2.pdf, id=495, page=3, 142.26378pt x 142.26378pt>
+File: NRS_timeline2.pdf Graphic file (type pdf)
+<use NRS_timeline2.pdf, page 3>
+Package pdftex.def Info: NRS_timeline2.pdf, page3 used on input line 56.
+(pdftex.def)             Requested size: 142.26378pt x 142.27644pt.
+<NRS_timeline2.pdf, id=496, page=4, 142.26378pt x 142.26378pt>
+File: NRS_timeline2.pdf Graphic file (type pdf)
+<use NRS_timeline2.pdf, page 4>
+Package pdftex.def Info: NRS_timeline2.pdf, page4 used on input line 58.
+(pdftex.def)             Requested size: 142.26378pt x 142.27644pt.
+<NRS_timeline2.pdf, id=497, page=5, 142.26378pt x 142.26378pt>
+File: NRS_timeline2.pdf Graphic file (type pdf)
+<use NRS_timeline2.pdf, page 5>
+Package pdftex.def Info: NRS_timeline2.pdf, page5 used on input line 60.
+(pdftex.def)             Requested size: 142.26378pt x 142.27644pt.
+<NRS_timeline2.pdf, id=498, page=6, 142.26378pt x 142.26378pt>
+File: NRS_timeline2.pdf Graphic file (type pdf)
+<use NRS_timeline2.pdf, page 6>
+Package pdftex.def Info: NRS_timeline2.pdf, page6 used on input line 62.
+(pdftex.def)             Requested size: 142.26378pt x 142.27644pt.
+<NRS_timeline2.pdf, id=499, page=7, 142.26378pt x 142.26378pt>
+File: NRS_timeline2.pdf Graphic file (type pdf)
+<use NRS_timeline2.pdf, page 7>
+Package pdftex.def Info: NRS_timeline2.pdf, page7 used on input line 64.
+(pdftex.def)             Requested size: 142.26378pt x 142.27644pt.
+./NRS_timeline2.pdf_tex:65: Missing number, treated as zero.
+<to be read again> 
+                   ]
+l.65 ...akebox(0,0)[b]{\smash{$\footnote\tau_e$}}}
+                                                  %
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+./NRS_timeline2.pdf_tex:65: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   ]
+l.65 ...akebox(0,0)[b]{\smash{$\footnote\tau_e$}}}
+                                                  %
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+
+./NRS_timeline2.pdf_tex:65: LaTeX Error: Not in outer par mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.65 ...akebox(0,0)[b]{\smash{$\footnote\tau_e$}}}
+                                                  %
+You've lost some text.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+)
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 521.
+See the caption package documentation for explanation.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 521--521
+[]\T1/pplj/m/n/10 Figure 6.3: |[]Hypotetic time-line
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 521--521
+\T1/pplj/m/n/10 2, the ex-tra node in-ter-fer-ence
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 521--521
+\T1/pplj/m/n/10 into the loop com-mu-ni-ca-tions
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 521--521
+\T1/pplj/m/n/10 ran-domly, pro-duc-ing an es-tra
+ []
+
+
+LaTeX Warning: Marginpar on page 39 moved.
+
+
+LaTeX Warning: Marginpar on page 39 moved.
+
+
+LaTeX Warning: Marginpar on page 39 moved.
+
+[39 <./red_extra.pdf> <./NRS_timeline1.pdf
+
+pdfTeX warning: pdflatex (file ./NRS_timeline1.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./NRS_timeline1.pdf
+
+pdfTeX warning: pdflatex (file ./NRS_timeline1.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./NRS_timeline1.pdf
+
+pdfTeX warning: pdflatex (file ./NRS_timeline1.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./NRS_timeline1.pdf
+
+pdfTeX warning: pdflatex (file ./NRS_timeline1.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./NRS_timeline1.pdf
+
+pdfTeX warning: pdflatex (file ./NRS_timeline1.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./NRS_timeline1.pdf
+
+pdfTeX warning: pdflatex (file ./NRS_timeline1.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./NRS_timeline2.pdf
+
+pdfTeX warning: pdflatex (file ./NRS_timeline2.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./NRS_timeline2.pdf
+
+pdfTeX warning: pdflatex (file ./NRS_timeline2.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./NRS_timeline2.pdf
+
+pdfTeX warning: pdflatex (file ./NRS_timeline2.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./NRS_timeline2.pdf
+
+pdfTeX warning: pdflatex (file ./NRS_timeline2.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./NRS_timeline2.pdf
+
+pdfTeX warning: pdflatex (file ./NRS_timeline2.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./NRS_timeline2.pdf
+
+pdfTeX warning: pdflatex (file ./NRS_timeline2.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./NRS_timeline2.pdf
+
+pdfTeX warning: pdflatex (file ./NRS_timeline2.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>]
+
+LaTeX Warning: Marginpar on page 40 moved.
+
+(./graph.pdf_tex <graph.pdf, id=513, page=1, 142.26378pt x 85.35826pt>
+File: graph.pdf Graphic file (type pdf)
+<use graph.pdf, page 1>
+Package pdftex.def Info: graph.pdf, page1 used on input line 52.
+(pdftex.def)             Requested size: 142.26378pt x 85.36586pt.
+<graph.pdf, id=514, page=2, 142.26378pt x 85.35826pt>
+File: graph.pdf Graphic file (type pdf)
+<use graph.pdf, page 2>
+Package pdftex.def Info: graph.pdf, page2 used on input line 54.
+(pdftex.def)             Requested size: 142.26378pt x 85.36586pt.
+)
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 622.
+See the caption package documentation for explanation.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 622--622
+[]\T1/pplj/m/n/10 Figure 6.4: |[]This is the graph
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 622--622
+\T1/pplj/m/n/10 as-so-ci-ated with the ex-am-ple we
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 622--622
+\T1/pplj/m/n/10 are propos-ing, the prob-a-bil-ity
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 622--622
+\T1/pplj/m/n/10 of hav-ing $\OT1/zplm/m/n/10 ^^H[]$ \T1/pplj/m/n/10 af-ter hap-pen-ing
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 622--622
+\OT1/zplm/m/n/10 ^^H[]$ \T1/pplj/m/n/10 is $\OT1/pplx/m/n/10 0.5$\T1/pplj/m/n/10 , while the re-verse case
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 622--622
+\T1/pplj/m/n/10 is sym-met-ric. In this sit-u-a-tion
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 622--622
+\T1/pplj/m/n/10 you can-not pre-dict the se-quence
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 622--622
+\T1/pplj/m/n/10 of the ma-tri-ces nei-ther a ten-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 622--622
+\T1/pplj/m/n/10 dency in the se-quences that we
+ []
+
+
+LaTeX Warning: Marginpar on page 40 moved.
+
+
+Class tufte-book Warning: Proper spacing of small-caps letters has not been set up.
+This message occurred on input line 638.
+
+[40 <./graph.pdf> <./graph.pdf
+
+pdfTeX warning: pdflatex (file ./graph.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>]
+
+LaTeX Warning: Marginpar on page 41 moved.
+
+
+LaTeX Warning: Marginpar on page 41 moved.
+
+
+LaTeX Warning: Marginpar on page 41 moved.
+
+
+LaTeX Warning: Marginpar on page 41 moved.
+
+
+LaTeX Warning: Marginpar on page 41 moved.
+
+
+Class tufte-book Warning: Proper spacing of small-caps letters has not been set up.
+This message occurred on input line 697.
+
+[41]
+
+Package svg Warning: You should specify the image size with parameters
+(svg)                `width' and `height' or `scale' instead of using
+(svg)                `\svgscale' or `\svgwidth' on input line 705.
+
+Package svg Info: Last page of `./svg-inkscape/NRS_control_basic_svg-tex.pdf' is 8 on input line 705.
+(./svg-inkscape/NRS_control_basic_svg-tex.pdf_tex
+File: ./svg-inkscape/NRS_control_basic_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/NRS_control_basic_svg-tex.pdf, page 1>
+Package pdftex.def Info: ./svg-inkscape/NRS_control_basic_svg-tex.pdf, page1 used on input line 52.
+(pdftex.def)             Requested size: 144.0pt x 83.53679pt.
+File: ./svg-inkscape/NRS_control_basic_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/NRS_control_basic_svg-tex.pdf, page 2>
+Package pdftex.def Info: ./svg-inkscape/NRS_control_basic_svg-tex.pdf, page2 used on input line 54.
+(pdftex.def)             Requested size: 144.0pt x 83.53679pt.
+File: ./svg-inkscape/NRS_control_basic_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/NRS_control_basic_svg-tex.pdf, page 3>
+Package pdftex.def Info: ./svg-inkscape/NRS_control_basic_svg-tex.pdf, page3 used on input line 56.
+(pdftex.def)             Requested size: 144.0pt x 83.53679pt.
+File: ./svg-inkscape/NRS_control_basic_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/NRS_control_basic_svg-tex.pdf, page 4>
+Package pdftex.def Info: ./svg-inkscape/NRS_control_basic_svg-tex.pdf, page4 used on input line 58.
+(pdftex.def)             Requested size: 144.0pt x 83.53679pt.
+File: ./svg-inkscape/NRS_control_basic_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/NRS_control_basic_svg-tex.pdf, page 5>
+Package pdftex.def Info: ./svg-inkscape/NRS_control_basic_svg-tex.pdf, page5 used on input line 60.
+(pdftex.def)             Requested size: 144.0pt x 83.53679pt.
+File: ./svg-inkscape/NRS_control_basic_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/NRS_control_basic_svg-tex.pdf, page 6>
+Package pdftex.def Info: ./svg-inkscape/NRS_control_basic_svg-tex.pdf, page6 used on input line 62.
+(pdftex.def)             Requested size: 144.0pt x 83.53679pt.
+File: ./svg-inkscape/NRS_control_basic_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/NRS_control_basic_svg-tex.pdf, page 7>
+Package pdftex.def Info: ./svg-inkscape/NRS_control_basic_svg-tex.pdf, page7 used on input line 64.
+(pdftex.def)             Requested size: 144.0pt x 83.53679pt.
+File: ./svg-inkscape/NRS_control_basic_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/NRS_control_basic_svg-tex.pdf, page 8>
+Package pdftex.def Info: ./svg-inkscape/NRS_control_basic_svg-tex.pdf, page8 used on input line 67.
+(pdftex.def)             Requested size: 144.0pt x 83.53679pt.
+)
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 706.
+See the caption package documentation for explanation.
+
+
+Overfull \hbox (2.328pt too wide) in paragraph at lines 703--706
+  [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 706--706
+[]\T1/pplj/m/n/10 Figure 6.5: |[]Sampling model of a
+ []
+
+
+Overfull \hbox (42.62022pt too wide) in paragraph at lines 732--732
+[]  
+ []
+
+
+Overfull \hbox (96.55591pt too wide) in paragraph at lines 737--737
+[]  
+ []
+
+
+Overfull \hbox (42.28592pt too wide) in paragraph at lines 746--746
+[]  
+ []
+
+
+Overfull \hbox (91.75269pt too wide) in paragraph at lines 772--772
+[]  
+ []
+
+
+Class tufte-book Warning: Proper spacing of small-caps letters has not been set up.
+This message occurred on input line 776.
+
+[42]
+Overfull \hbox (23.91058pt too wide) in paragraph at lines 789--789
+[]  
+ []
+
+
+Overfull \hbox (45.72035pt too wide) in paragraph at lines 800--800
+[]  
+ []
+
+)
+
+Package bibentry Warning: You have used \nobibliography* 
+(bibentry)                without a following \bibliography.
+(bibentry)                You may not be able to run BibTeX.
+
+
+Package caption Warning: Unused \captionsetup[lstlisting] on input line 95.
+See the caption package documentation for explanation.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 126.
+
+Class tufte-book Warning: Proper spacing of small-caps letters has not been set up.
+This message occurred on input line 126.
+
+[43]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 126.
+(build/main.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 126.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 126.
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: <no file>.
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 126.
+ ) 
+Here is how much of TeX's memory you used:
+ 27704 strings out of 492995
+ 445557 string characters out of 6132704
+ 660740 words of memory out of 5000000
+ 30455 multiletter control sequences out of 15000+600000
+ 82319 words of font info for 150 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 53i,16n,92p,815b,706s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/fpl/fplbj8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/mathpazo/fplmbb.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/mathpazo/fplmr.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/mathpazo/fplmri.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/fpl/fplrc8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/fpl/fplrij8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
+Output written on build/main.pdf (43 pages, 815066 bytes).
+PDF statistics:
+ 652 PDF objects out of 1000 (max. 8388607)
+ 496 compressed objects within 5 object streams
+ 176 named destinations out of 1000 (max. 500000)
+ 547 words of extra memory for PDF output out of 10000 (max. 10000000)
+

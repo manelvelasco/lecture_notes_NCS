@@ -1,0 +1,498 @@
+\ifx \llibre \undefined
+
+\documentclass[nols]{tufte-handout} 
+
+
+
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{listings} 
+\usepackage{fancyvrb}
+\usepackage{url}
+\usepackage{tabularx}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{amsfonts}
+\usepackage{amscd}
+\usepackage{amssymb}
+\usepackage{amstext}
+\usepackage{pstricks,pst-node}
+\usepackage{graphicx}
+\usepackage{listings}
+\usepackage{color}
+\usepackage{pst-plot}
+\usepackage{subfigure}
+\usepackage{cite}
+\usepackage{float}
+\usepackage{caption}
+\usepackage{booktabs}
+\usepackage{hyperref}
+\usepackage{listings,color}
+\usepackage{xcolor}
+\usepackage{framed}
+\definecolor{shadecolor}{rgb}{0.9,0.9,0.9}
+\hypersetup{pdfauthor={Manel Velasco},
+    pdftitle={Networked Control Systems},
+    pdfsubject={Lecture notes on networked control systems},
+    urlcolor=blue,
+}
+\usepackage{graphicx}
+\usepackage{mathtools}
+
+\theoremstyle{definition}
+\usepackage{verbatimbox}
+\newtheorem{exmp}{Example}[section]
+
+
+\newcommand{\executeiffilenewer}[3]{%
+ \ifnum\pdfstrcmp{\pdffilemoddate{#1}}%
+ {\pdffilemoddate{#2}}>0%
+ {\immediate\write18{#3}}\fi%
+}
+\newcommand{\includesvg}[1]{%
+ \executeiffilenewer{#1.svg}{#1.pdf}%
+ {inkscape -z -D --file="$(pwd)/#1.svg" %
+ --export-pdf="$(pwd)/#1.pdf" --export-latex}%
+ \input{#1.pdf_tex}%
+}
+
+
+
+
+\usepackage{courier}
+\lstset{
+    basicstyle=\footnotesize\ttfamily, % Standardschrift
+    %numbers=left,               % Ort der Zeilennummern
+    numberstyle=\tiny,          % Stil der Zeilennummern
+    %stepnumber=2,               % Abstand zwischen den Zeilennummern
+    numbersep=5pt,              % Abstand der Nummern zum Text
+    tabsize=2,                  % Groesse von Tabs
+    extendedchars=true,         %
+    breaklines=true,            % Zeilen werden Umgebrochen
+    keywordstyle=\color{red},
+    frame=b,         
+    %        keywordstyle=[1]\textbf,    % Stil der Keywords
+    %        keywordstyle=[2]\textbf,    %
+    %        keywordstyle=[3]\textbf,    %
+    %        keywordstyle=[4]\textbf,   \sqrt{\sqrt{}} %
+    keywordstyle=\color{blue}\ttfamily,
+    commentstyle=\color{green}\ttfamily,
+    stringstyle=\color{white}\ttfamily, % Farbe der String
+    showspaces=false,           % Leerzeichen anzeigen ?
+    showtabs=false,             % Tabs anzeigen ?
+    xleftmargin=17pt,
+    framexleftmargin=17pt,
+    framexrightmargin=5pt,
+    framexbottommargin=4pt,
+    %backgroundcolor=\color{lightgray},
+    showstringspaces=false,      % Leerzeichen in Strings anzeigen ?        
+    language=C
+}
+
+
+\usepackage{caption}
+\DeclareCaptionFont{white}{\color{white}}
+\DeclareCaptionFormat{listing}{\colorbox[cmyk]{0.43, 0.35, 0.35,0.01}{\parbox{\textwidth}{\hspace{15pt}#1#2#3}}}
+\captionsetup[lstlisting]{format=listing,labelfont=white,textfont=white, singlelinecheck=false, margin=0pt, font={bf,footnotesize}}
+
+
+
+
+\newcommand{\tab}{\hspace{1cm}}
+
+
+
+
+\newcommand{\chapter}[1]{\section{#1}}
+
+
+
+
+\title{Networked control systems, basic model and timing analysis} % Title of the book
+\author[Manel Velasco and Pau Martí]{Manel Velasco and Pau Martí} % ADemo
+\publisher{ESAII} % Publisher
+
+
+
+\begin{document}
+
+\maketitle
+\setcounter{secnumdepth}{2}
+
+\else
+
+\fi
+
+
+
+%--------------------------------------------------------------------------
+
+
+\chapter{Basic model for a networked control system}
+
+Whenever we work with a networked control system we experience some delays induced by the network. The nature of these delays may be random and unpredictable.  
+This fact adds a lot of difficulty to the analysis of this kind of systems, we propose to use a simplified path to analyze them.
+
+\begin{figure}
+\centering
+\def\svgwidth{\columnwidth}
+\includesvg{ncs}
+\end{figure}
+
+
+\begin{itemize}
+    \item Analyze the effects of the network in a time line
+    \item Fix the delay to be regular and the sampling period to be constant
+    \item Construct a model that contains these simplified effects
+\end{itemize}
+
+Afterward we will increase the difficulty of the analysis.  
+
+
+\section{Time delays induced by the network}
+
+Figure (\ref{fig:retrasos}) sketches a simplified version of what may happen in a network. In this example the control loop is isolated in the network, meaning that nobody else is going to interrupt nor delay the messages on the network.
+
+\begin{marginfigure}
+    \centering
+\def\svgwidth{\columnwidth}
+\includesvg{NRS_timeline_net}
+%    \input{NRS_timeline_basic.pdf_tex}
+    \caption{Networked system timeline analysis}
+    \label{fig:retrasos}
+\end{marginfigure}
+
+Under these conditions the sequence of events in the control loop is described as:
+\begin{itemize}
+    \item A time interrupt happens in the sensor processor, so the sensor starts the measuring, this instant of time may be labeled as $kh$. Where $h$ is the sampling interval and this is occurring at the $k^{\text{th}}$ sample.
+    \item The sensor takes some time to perform the measure, so a small delay gets into de loop, $\tau_s$.
+    \item The sensor starts retransmitting the message that carries the information of the measurement to the controller, this also takes some time, $\tau_{sc}$.
+    \item The controller gets the message at time $kh+\tau_s+\tau_ca$ and starts the computation of the control action, which also takes some time in the processor, $\tau_c$.
+    \item Once the control action is computed the controller starts the transmission of the message that carries the control action information. This transmission takes some time in the network, namely $tau_{ca}$
+    \item The actuator node get the message at time $kh+\tau_s+\tau_{sc}+\tau_c+\tau_{ca}$, but also takes some small time to apply it to the plant, and thus it induces a small delay $\tau_a$ into the control loop. 
+\end{itemize}
+
+This sequence shows that there is an offset between the sampling instant and the actuation instant, which brakes the assumptions we did to derive the discrete time model in previous sections.
+
+To overcome this problem we propose a new model.
+
+\section{Delayed time model}
+The proposed  model should take into consideration the effects of the network in the control loop, the detailed timing of the model is shown in figure (\ref{fig:basic_timing})
+\begin{figure}
+\centering
+\def\svgwidth{\columnwidth}
+\includesvg{NRS_timeline_basic}
+\caption{Time analysis of the networked control loop}
+\label{fig:basic_timing}
+\end{figure}
+
+As it can be seen the actuation and the sampling aren't performed in the same time instant, so we have to clarify how the control action is really aplied to the system. Next figure shows a random control signal as seen from the controller plant point of view.
+
+
+\begin{figure}
+\centering
+\def\svgwidth{\columnwidth}
+\includesvg{NRS_control_basic}
+\label{fig:basic_control}
+\caption{Control signal change instants due to the delays induced by the network}
+\end{figure}
+
+It can be seen that the control signal changes in the middle of the period, so the assumpltios made in the deduction of the discrete time model are no longer valid. We see how there is a control signal constant from $kh$ up to $kh+\tau$, and then a new interval from $kh+\tau$ up to $(k+1)h$ where the control signal is constant again.
+
+Applying the idea of chain of initial condition we can write these equations:
+\begin{itemize}
+    \item From $kh$ up to $kh+\tau$ we can write
+\begin{align}\label{eq1}
+    x_{kh+\tau}&=e^{A\tau}x_{kh}+\int_0^\tau e^{As}Bds\,u_{(k-1)h}
+\end{align}
+\item From $kh+\tau$ up to $(k+1)h$ the exact solution is
+\begin{align}\label{eq2}
+    x_{(k+1)h}&=e^{A(h-\tau)}x_{kh+\tau}+\int_0^{h-\tau} e^{As}Bds\,u_k
+\end{align}
+\end{itemize}
+
+
+If we substitute equation (\ref{eq1}) into equation (\ref{eq2}) we get:
+
+\begin{align}\label{eq3}
+    x_{(k+1)h}&=e^{Ah}x_{kh}+ e^{A(h-\tau)}\int_0^\tau e^{As}Bds\,u_{(k-1)h} +  \int_0^{h-\tau} e^{As}Bds\,u_k
+\end{align}
+
+And, using a more convenient notation we usually write\sidenote{We use the property $\Phi(h-\tau)\Phi(\tau)=\Phi(h)$. This property mey be only applied if the matrices $e^{Ah}$ and $e^{A(h-\tau)}$ commute. In this case those matrices commute, try to prove that} it in the form
+
+\begin{align}\label{eq4}
+    x_{k+1}&=\Phi(h)x_{k}+ \Phi(h-\tau) \Gamma(\tau)u_{k-1} +  \Gamma(h-\tau) u_k
+\end{align}
+
+
+As it can be seen that is a two step model. If we propose a controller with the form $u_k=Kx_k$ we get the equation
+
+\begin{align}\label{eq5}
+    x_{k+1}&=\Phi(h)x_{k}+ \Phi(h-\tau) \Gamma(\tau)Kx_{k-1} +  \Gamma(h-\tau) Kx_k
+\end{align}
+
+Where is impossible to get a closed loop expression, due to the fact that we cannot take common factor $x_k$. Going back to equation (\ref{eq4}) we see that it may be rearranged as\sidenote{Just perform the matrix multiplications to get two equations, the first one is (\ref{eq5}) and the second one just states that $u_k=u_k$} 
+
+
+\begin{align}\label{eq6}
+    \begin{bmatrix}
+        x_{k+1}\\
+        u_{k}
+    \end{bmatrix}=
+    \begin{bmatrix}
+        \Phi(h) & \Phi(h-\tau) \Gamma(\tau)\\
+        0 & 0
+    \end{bmatrix}
+    \begin{bmatrix}
+        x_{k}\\
+        u_{k-1}
+    \end{bmatrix}+
+    \begin{bmatrix}
+         \Gamma(h-\tau)\\
+         1
+    \end{bmatrix}u_k
+\end{align}
+This lifted\sidenote{A matrix of matrices operates as this example. Suppose $R$ and $T$ to be
+    \begin{align*}
+        R&=\begin{bmatrix}
+            a & b\\ c &d
+        \end{bmatrix}\\
+        T&=\begin{bmatrix}
+            e \\ f
+        \end{bmatrix}
+    \end{align*}
+    Then the matrix of matrices 
+
+    \[
+        S=\begin{bmatrix}
+            R & T\\
+            0 & 0
+        \end{bmatrix}=
+        \begin{bmatrix}
+            a & b & e\\ c &d & f\\
+            0& 0 & 0
+        \end{bmatrix}
+    \]
+
+} system collects the system dynamics and the dynamics of the control signal. It has an extra pole, so some care must be taken when designing the controller. The standard way to design controllers works flawlessly with these lifted systems.
+
+
+%----------------------------------------------------
+%--Ejemplo-------------------------------------------
+%----------------------------------------------------
+
+\vspace{1cm}
+\hrule height 1pt
+\begin{exmp}
+
+
+Lets use the dobule integrator model
+\begin{align*}
+\dot{x}
+&=
+\begin{bmatrix}
+0 & 1\\
+0 & 0
+\end{bmatrix}
+x+
+\begin{bmatrix}
+0\\
+1
+\end{bmatrix}
+u\\
+y&=
+\begin{bmatrix}
+1 & 0
+\end{bmatrix}
+x
+\end{align*}
+%\end{equation}
+
+We want to design a controller that sets the discret eigen-values of the system to $z_{1,2}=\pm 0.5$ with a sampling period of $h=0.01$s, we know that there is a small delay induced by the network of $\tau=0.005$s 
+
+    \textbf{Solution:}
+
+Taking advantage of our knowledge of Matlab we can construct directly the delayed system and construct the controller
+
+    \noindent\hfil\rule{\textwidth}{.4pt}\hfil
+       \begin{verbbox}[\footnotesize]
+                                                            .           
+Phi_extended =
+[1.0000    0.0100    0.0002]
+[     0    1.0000    0.0100]
+[     0         0         0]
+
+Gamma_extended =
+[0.0001]
+[0.0100]
+[1.0000]
+
+k =
+1.0e+03 *
+[3.7500    0.0813    0.0010]
+
+    \end{verbbox} 
+\textbf{Matlab code:}\marginnote{
+        \textbf{Result:}\\
+        \theverbbox 
+    }
+    \begin{verbatim}
+        A=[0 1;0 0];                %system matrix
+        B=[0;1];                    %Input matrix
+        h=0.01;                     %sampling period
+        tau=0.005
+        [phi_h,gamma_h]=c2d(A,B,h); %Discrete model
+        [phi_t,gamma_t]=c2d(A,B,h); %Discrete model
+        [phi_ht,gamma_ht]=c2d(A,B,h);%Discrete model
+        Phi_extended=[phi_h phi_ht*gamma_t;
+                      0  0       0       ];
+        Gamma_extended=[gamma_ht;1];
+        z=[0.5, -0.5 , 0];          %Discrete poles
+        k=acker(Phi_extended,Gamma_extended,z) %Controler
+    \end{verbatim}
+
+
+    \noindent\hfil\rule{\textwidth}{.4pt}\hfil
+
+\hrule height 1pt
+\end{exmp}
+\vspace{1cm}
+
+\section{Induced delay longer than the sampling period}
+
+Now let us consider the case when $\tau$ is longer than $h$. The number of possible cases grows as $\tau$ gets longer and longer. To develop the model we are going to consider the simplest case, the one where $h>\tau>2h$. The associated timing diagram of the sampling and the control actions may be observer in next figure
+
+\begin{figure}
+\centering
+\def\svgwidth{\columnwidth}
+\includesvg{NRS_control_basic_long}
+\label{fig:basic_control_long}
+\caption{Control signal change instants due to the delays induced by the network. In this case the delay is larger than the sampling period, and thus, $h>\tau>2h$}
+\end{figure}
+
+We define\sidenote{For longer delays this is defined as $d=\tau-nh$, and $n$ is the number of full sampling steps that the delay covers} $d=\tau-h$. As it can be seen in the diagram of figure (\ref{fig:basic_control_long}), at sampling instant $kh$ the control law acting on the system is $u_{k-2}$, taking thisinto account and following the philosophy of chain of initial conditions we can state\sidenote{Try to prove this yourself} that
+
+
+
+\begin{align}\label{eq4}
+    x_{k+1}&=\Phi(h)x_{k}+ \Phi(h-d) \Gamma(d)u_{k-2} +  \Gamma(h-d) u_{k-1}
+\end{align}
+Once again the control signal replaced by its expression will result into a strange pattern which can be solved using a lifted system. In this case will be 
+
+
+\begin{align}\label{eq6}
+    \begin{bmatrix}
+        x_{k+1}\\
+        u_{k-1}\\
+        u_{k}
+    \end{bmatrix}=
+    \begin{bmatrix}
+        \Phi(h) & \Phi(h-d)\Gamma(d) & \Gamma(h-d)\\
+        0 & 0 & 1\\
+        0 & 0 & 0
+    \end{bmatrix}
+    \begin{bmatrix}
+        x_{k}\\
+        u_{k-2}\\
+        u_{k-1}
+    \end{bmatrix}+
+    \begin{bmatrix}
+         0\\
+         0\\
+         1
+    \end{bmatrix}u_k
+\end{align}
+So new dimensions appear as the delay grows. This can be easily extended to longer delays.
+
+
+%----------------------------------------------------
+%--Ejemplo-------------------------------------------
+%----------------------------------------------------
+
+\vspace{1cm}
+\hrule height 1pt
+\begin{exmp}
+
+
+Lets use the dobule integrator model
+\begin{align*}
+\dot{x}
+&=
+\begin{bmatrix}
+0 & 1\\
+0 & 0
+\end{bmatrix}
+x+
+\begin{bmatrix}
+0\\
+1
+\end{bmatrix}
+u\\
+y&=
+\begin{bmatrix}
+1 & 0
+\end{bmatrix}
+x
+\end{align*}
+%\end{equation}
+
+We want to design a controller that sets the discret eigen-values of the system to $z_{1,2}=\pm 0.5$ with a sampling period of $h=0.01$s, we know that there is a small delay induced by the network of $\tau=0.015$s 
+
+    \textbf{Solution:}
+
+Taking advantage of our knowledge of Matlab we can construct directly the delayed system and construct the controller, in thid case $n=1$ and $d=0.005$
+
+    \noindent\hfil\rule{\textwidth}{.4pt}\hfil
+       \begin{verbbox}[\footnotesize]
+                                                            .           
+Phi_extended =
+[1.0000    0.0100    0.0002    0.0001]
+[     0    1.0000    0.0100    0.0100]
+[     0         0         0    1.0000]
+[     0         0         0         0]
+
+Gamma_extended =
+[0]
+[0]
+[0]
+[1]
+
+k =
+1.0e+03 *
+[3.7500    0.1188    0.0014    0.0020]
+
+    \end{verbbox} 
+\textbf{Matlab code:}\marginnote{
+        \textbf{Result:}\\
+        \theverbbox 
+    }
+    \begin{verbatim}
+        A=[0 1;0 0];                %system matrix
+        B=[0;1];                    %Input matrix
+        h=0.01;                     %sampling period
+        tau=0.005
+        [phi_h,gamma_h]=c2d(A,B,h); %Discrete model
+        [phi_t,gamma_t]=c2d(A,B,h); %Discrete model
+        [phi_ht,gamma_ht]=c2d(A,B,h);%Discrete model
+        Phi_extended=[phi_h phi_ht*gamma_t gamma_ht;
+                      0  0       0           1
+                      0  0       0           0    ];
+        Gamma_extended=[0 ; 0 ; 0 ; 1];
+        z=[0.5, -0.5 , 0 , 0 ];          %Discrete poles
+        k=acker(Phi_extended,Gamma_extended,z) %Controler
+    \end{verbatim}
+
+
+    \noindent\hfil\rule{\textwidth}{.4pt}\hfil
+
+\hrule height 1pt
+\end{exmp}
+\vspace{1cm}
+
+\ifx \fillibre \undefined
+\end{document}
+\else
+
+\fi
+
+

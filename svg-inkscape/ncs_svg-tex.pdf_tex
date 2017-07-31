@@ -1,0 +1,69 @@
+%% Creator: Inkscape inkscape 0.91, www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'ncs_svg-tex.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{501.9040312bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.35510483)%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{ncs_svg-tex.pdf}}%
+    \put(0.10756557,0.26970027){\color[rgb]{0,0.13333333,0.33333333}\makebox(0,0)[lb]{\smash{Controller}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{ncs_svg-tex.pdf}}%
+    \put(0.15502157,0.04910868){\color[rgb]{0,0.13333333,0.33333333}\makebox(0,0)[lb]{\smash{Plant}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{ncs_svg-tex.pdf}}%
+    \put(0.38256324,0.3056973){\color[rgb]{0,0.13333333,0.33333333}\makebox(0,0)[lb]{\smash{\textbf{y}}}}%
+    \put(0.01219737,0.04062633){\color[rgb]{0,0.13333333,0.33333333}\makebox(0,0)[lb]{\smash{\textbf{u}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=4]{ncs_svg-tex.pdf}}%
+    \put(0.63604825,0.27628509){\color[rgb]{0,0.13333333,0.33333333}\makebox(0,0)[lb]{\smash{Controller}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=5]{ncs_svg-tex.pdf}}%
+    \put(0.68350425,0.0556935){\color[rgb]{0,0.13333333,0.33333333}\makebox(0,0)[lb]{\smash{Plant}}}%
+    \put(0.9076673,0.31021887){\color[rgb]{0,0.13333333,0.33333333}\makebox(0,0)[lb]{\smash{\textbf{y}}}}%
+    \put(0.53730146,0.04514788){\color[rgb]{0,0.13333333,0.33333333}\makebox(0,0)[lb]{\smash{\textbf{u}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=6]{ncs_svg-tex.pdf}}%
+    \put(0.74014742,0.17051567){\color[rgb]{0,0.13333333,0.33333333}\makebox(0,0)[b]{\smash{\textbf{communication network}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=7]{ncs_svg-tex.pdf}}%
+  \end{picture}%
+\endgroup%

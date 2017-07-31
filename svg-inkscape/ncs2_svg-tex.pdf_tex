@@ -1,0 +1,98 @@
+%% Creator: Inkscape inkscape 0.91, www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'ncs2_svg-tex.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{577.884952bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.45755857)%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{ncs2_svg-tex.pdf}}%
+    \put(0.11751131,0.37596964){\color[rgb]{0,0.13333333,0.33333333}\makebox(0,0)[lb]{\smash{\textbf{C}}}}%
+    \put(0.14125956,0.38939253){\color[rgb]{0,0.13333333,0.33333333}\makebox(0,0)[lb]{\smash{\textbf{(1)}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{ncs2_svg-tex.pdf}}%
+    \put(0.35086299,0.37596964){\color[rgb]{0,0.13333333,0.33333333}\makebox(0,0)[lb]{\smash{\textbf{C}}}}%
+    \put(0.37461124,0.38939253){\color[rgb]{0,0.13333333,0.33333333}\makebox(0,0)[lb]{\smash{\textbf{(2)}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{ncs2_svg-tex.pdf}}%
+    \put(0.82461462,0.37596964){\color[rgb]{0,0.13333333,0.33333333}\makebox(0,0)[lb]{\smash{\textbf{C}}}}%
+    \put(0.84836287,0.38939253){\color[rgb]{0,0.13333333,0.33333333}\makebox(0,0)[lb]{\smash{\textbf{(n)}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=4]{ncs2_svg-tex.pdf}}%
+    \put(0.3943016,0.26525101){\color[rgb]{0,0.13333333,0.33333333}\makebox(0,0)[lb]{\smash{\textbf{Communication Network}}}}%
+    \put(0.04173824,0.31292412){\color[rgb]{0,0.13333333,0.33333333}\makebox(0,0)[lb]{\smash{\textbf{u}}}}%
+    \put(0.05859029,0.32220935){\color[rgb]{0,0.13333333,0.33333333}\makebox(0,0)[lb]{\smash{\textbf{(1)}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=5]{ncs2_svg-tex.pdf}}%
+    \put(0.19479358,0.31332406){\color[rgb]{0,0.13333333,0.33333333}\makebox(0,0)[lb]{\smash{\textbf{y}}}}%
+    \put(0.21164564,0.32260929){\color[rgb]{0,0.13333333,0.33333333}\makebox(0,0)[lb]{\smash{\textbf{(1)}}}}%
+    \put(0.04173824,0.20313691){\color[rgb]{0,0.13333333,0.33333333}\makebox(0,0)[lb]{\smash{\textbf{u}}}}%
+    \put(0.05859029,0.21242215){\color[rgb]{0,0.13333333,0.33333333}\makebox(0,0)[lb]{\smash{\textbf{(1)}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=6]{ncs2_svg-tex.pdf}}%
+    \put(0.19479358,0.20353685){\color[rgb]{0,0.13333333,0.33333333}\makebox(0,0)[lb]{\smash{\textbf{y}}}}%
+    \put(0.21164564,0.21282208){\color[rgb]{0,0.13333333,0.33333333}\makebox(0,0)[lb]{\smash{\textbf{(1)}}}}%
+    \put(0.27463942,0.31292412){\color[rgb]{0,0.13333333,0.33333333}\makebox(0,0)[lb]{\smash{\textbf{u}}}}%
+    \put(0.29149147,0.32220935){\color[rgb]{0,0.13333333,0.33333333}\makebox(0,0)[lb]{\smash{\textbf{(2)}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=7]{ncs2_svg-tex.pdf}}%
+    \put(0.42769476,0.31332406){\color[rgb]{0,0.13333333,0.33333333}\makebox(0,0)[lb]{\smash{\textbf{y}}}}%
+    \put(0.44454682,0.32260929){\color[rgb]{0,0.13333333,0.33333333}\makebox(0,0)[lb]{\smash{\textbf{(2)}}}}%
+    \put(0.74615326,0.31292412){\color[rgb]{0,0.13333333,0.33333333}\makebox(0,0)[lb]{\smash{\textbf{u}}}}%
+    \put(0.76300531,0.32220935){\color[rgb]{0,0.13333333,0.33333333}\makebox(0,0)[lb]{\smash{\textbf{(n)}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=8]{ncs2_svg-tex.pdf}}%
+    \put(0.8992086,0.31332406){\color[rgb]{0,0.13333333,0.33333333}\makebox(0,0)[lb]{\smash{\textbf{y}}}}%
+    \put(0.91606066,0.32260929){\color[rgb]{0,0.13333333,0.33333333}\makebox(0,0)[lb]{\smash{\textbf{(n)}}}}%
+    \put(0.27463942,0.20313691){\color[rgb]{0,0.13333333,0.33333333}\makebox(0,0)[lb]{\smash{\textbf{u}}}}%
+    \put(0.29149147,0.21242215){\color[rgb]{0,0.13333333,0.33333333}\makebox(0,0)[lb]{\smash{\textbf{(2)}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=9]{ncs2_svg-tex.pdf}}%
+    \put(0.42769476,0.20353685){\color[rgb]{0,0.13333333,0.33333333}\makebox(0,0)[lb]{\smash{\textbf{y}}}}%
+    \put(0.44454682,0.21282208){\color[rgb]{0,0.13333333,0.33333333}\makebox(0,0)[lb]{\smash{\textbf{(2)}}}}%
+    \put(0.74615326,0.20313691){\color[rgb]{0,0.13333333,0.33333333}\makebox(0,0)[lb]{\smash{\textbf{u}}}}%
+    \put(0.76300531,0.21242215){\color[rgb]{0,0.13333333,0.33333333}\makebox(0,0)[lb]{\smash{\textbf{(n)}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=10]{ncs2_svg-tex.pdf}}%
+    \put(0.8992086,0.20353685){\color[rgb]{0,0.13333333,0.33333333}\makebox(0,0)[lb]{\smash{\textbf{y}}}}%
+    \put(0.91606066,0.21282208){\color[rgb]{0,0.13333333,0.33333333}\makebox(0,0)[lb]{\smash{\textbf{(n)}}}}%
+    \put(0.36819652,0.00503925){\color[rgb]{0,0.13333333,0.33333333}\makebox(0,0)[lb]{\smash{Networked Control Systems}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=11]{ncs2_svg-tex.pdf}}%
+    \put(0.50570548,0.11784838){\color[rgb]{0,0.13333333,0.33333333}\makebox(0,0)[lb]{\smash{Plant}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=12]{ncs2_svg-tex.pdf}}%
+  \end{picture}%
+\endgroup%
